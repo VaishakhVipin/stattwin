@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 import os
 from .config import settings
 from .leagues import get_league_registry, LeagueInfo
+from .data_manager import get_data_manager  # Added: caching
 
 load_dotenv()
 
@@ -44,6 +45,7 @@ class FBRefClient:
         self.api_key = api_key
         self.base_url = settings.FBREF_API_BASE_URL
         self.rate_limiter = FBRefRateLimiter()
+        self.data_manager = get_data_manager()  # Added: DataManager for caching
         
         # Set up session with retry strategy
         self.session = requests.Session()
@@ -93,22 +95,30 @@ class FBRefClient:
                 logger.warning("No API key available - some endpoints may fail")
     
     def _make_request(self, endpoint: str, params: Optional[Dict] = None) -> Dict[str, Any]:
-        """Make a rate-limited request to the FBRef API."""
-        self.rate_limiter.wait_if_needed()
-        
+        """Make a rate-limited GET request to the FBRef API with filesystem caching."""
         url = f"{self.base_url}{endpoint}"
         
-        try:
+        def fetch_fn() -> Dict[str, Any]:
+            # Only rate-limit when we actually hit the network
+            self.rate_limiter.wait_if_needed()
             logger.info(f"Making request to: {url}")
             response = self.session.get(url, params=params, timeout=30)
             response.raise_for_status()
-            
             return response.json()
         
+        try:
+            # Use DataManager cache (default TTL from configuration)
+            data = self.data_manager.get_or_fetch_raw(
+                endpoint=endpoint,
+                params=params or {},
+                fetch_fn=fetch_fn,
+                max_age=self.data_manager.config.default_ttl,
+                version=None,
+            )
+            return data
         except requests.exceptions.RequestException as e:
             logger.error(f"Request failed: {e}")
             raise FBRefAPIError(f"API request failed: {e}")
-        
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse JSON response: {e}")
             raise FBRefAPIError(f"Invalid JSON response: {e}")

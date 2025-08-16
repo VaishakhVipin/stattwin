@@ -22,3 +22,6 @@ matplotlib>=3.7.0
 
 # Development
 python-dotenv>=1.0.0
+
+# Optional: Parquet support for DataManager processed storage
+pyarrow>=14.0.0
