@@ -1,0 +1,1950 @@
+{
+  "players": [
+    {
+      "meta_data": {
+        "player_id": "563fcd6b",
+        "player_name": "Gauthier Hein",
+        "player_country_code": "FRA",
+        "age": 27
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,FW",
+          "matches_played": 33,
+          "starts": "33",
+          "min": "2946",
+          "gls": "12",
+          "ast": "6",
+          "non_pen_gls": 6,
+          "pk_made": 6,
+          "pk_att": 6,
+          "yellow_cards": 5,
+          "red_cards": 0,
+          "per90_gls": 0.37,
+          "per90_ast": 0.18,
+          "per90_non_pen_gls": 0.18
+        },
+        "shooting": {
+          "sh": 63,
+          "sot": 30,
+          "pct_sot": 47.6,
+          "per90_sh": 1.92,
+          "per90_sot": 0.92,
+          "gls_per_sh": 0.1,
+          "gls_per_sot": 0.2,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 89.0,
+          "pct_squad_min": 96.3,
+          "avg_min_starter": 89.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 58,
+          "team_gls_ag_on_pitch": 32,
+          "per90_plus_minus": 0.79,
+          "per90_on_off": -2.36
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 16,
+          "fls_drawn": 36,
+          "offside": 5,
+          "crosses": 268,
+          "int": 9,
+          "tkl_won": 10,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "cc41f558",
+        "player_name": "Matthieu Udol",
+        "player_country_code": "FRA",
+        "age": 28
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 31,
+          "starts": "31",
+          "min": "2790",
+          "gls": "4",
+          "ast": "7",
+          "non_pen_gls": 4,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 6,
+          "red_cards": 0,
+          "per90_gls": 0.13,
+          "per90_ast": 0.23,
+          "per90_non_pen_gls": 0.13
+        },
+        "shooting": {
+          "sh": 42,
+          "sot": 10,
+          "pct_sot": 23.8,
+          "per90_sh": 1.35,
+          "per90_sot": 0.32,
+          "gls_per_sh": 0.1,
+          "gls_per_sot": 0.4,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 90.0,
+          "pct_squad_min": 91.2,
+          "avg_min_starter": 90.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 57,
+          "team_gls_ag_on_pitch": 29,
+          "per90_plus_minus": 0.9,
+          "per90_on_off": 0.24
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 42,
+          "fls_drawn": 41,
+          "offside": 0,
+          "crosses": 77,
+          "int": 62,
+          "tkl_won": 37,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "9ddf7fae",
+        "player_name": "Cheikh Tidiane Sabaly",
+        "player_country_code": "SEN",
+        "age": 25
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW,MF",
+          "matches_played": 33,
+          "starts": "30",
+          "min": "2586",
+          "gls": "15",
+          "ast": "2",
+          "non_pen_gls": 14,
+          "pk_made": 1,
+          "pk_att": 1,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": 0.52,
+          "per90_ast": 0.07,
+          "per90_non_pen_gls": 0.49
+        },
+        "shooting": {
+          "sh": 73,
+          "sot": 33,
+          "pct_sot": 45.2,
+          "per90_sh": 2.54,
+          "per90_sot": 1.15,
+          "gls_per_sh": 0.19,
+          "gls_per_sot": 0.42,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 78.0,
+          "pct_squad_min": 84.5,
+          "avg_min_starter": 83.0,
+          "subs": 3,
+          "avg_min_sub": 30.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 50,
+          "team_gls_ag_on_pitch": 29,
+          "per90_plus_minus": 0.73,
+          "per90_on_off": -0.98
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 42,
+          "fls_drawn": 35,
+          "offside": 19,
+          "crosses": 12,
+          "int": 4,
+          "tkl_won": 25,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "a6138e4a",
+        "player_name": "Jessy Deminguet",
+        "player_country_code": "FRA",
+        "age": 26
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 30,
+          "starts": "29",
+          "min": "2391",
+          "gls": "1",
+          "ast": "2",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "per90_gls": 0.04,
+          "per90_ast": 0.08,
+          "per90_non_pen_gls": 0.04
+        },
+        "shooting": {
+          "sh": 22,
+          "sot": 6,
+          "pct_sot": 27.3,
+          "per90_sh": 0.83,
+          "per90_sot": 0.23,
+          "gls_per_sh": 0.05,
+          "gls_per_sot": 0.17,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 80.0,
+          "pct_squad_min": 78.1,
+          "avg_min_starter": 82.0,
+          "subs": 1,
+          "avg_min_sub": 18.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 49,
+          "team_gls_ag_on_pitch": 22,
+          "per90_plus_minus": 1.02,
+          "per90_on_off": 0.61
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 42,
+          "fls_drawn": 52,
+          "offside": 3,
+          "crosses": 29,
+          "int": 35,
+          "tkl_won": 38,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "32100829",
+        "player_name": "Koffi Kouao",
+        "player_country_code": "CIV",
+        "age": 26
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF,MF",
+          "matches_played": 29,
+          "starts": "27",
+          "min": "2343",
+          "gls": "0",
+          "ast": "3",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 5,
+          "red_cards": 1,
+          "per90_gls": 0.0,
+          "per90_ast": 0.12,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 17,
+          "sot": 4,
+          "pct_sot": 23.5,
+          "per90_sh": 0.65,
+          "per90_sot": 0.15,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 81.0,
+          "pct_squad_min": 76.6,
+          "avg_min_starter": 85.0,
+          "subs": 2,
+          "avg_min_sub": 29.0,
+          "unused_sub": 1,
+          "team_gls_on_pitch": 42,
+          "team_gls_ag_on_pitch": 25,
+          "per90_plus_minus": 0.65,
+          "per90_on_off": -0.98
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 37,
+          "fls_drawn": 32,
+          "offside": 2,
+          "crosses": 73,
+          "int": 28,
+          "tkl_won": 49,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "b2009f99",
+        "player_name": "Sadibou Sané",
+        "player_country_code": "SEN",
+        "age": 20
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 25,
+          "starts": "25",
+          "min": "2198",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 6,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 11,
+          "sot": 1,
+          "pct_sot": 9.1,
+          "per90_sh": 0.45,
+          "per90_sot": 0.04,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 88.0,
+          "pct_squad_min": 71.8,
+          "avg_min_starter": 88.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 2,
+          "team_gls_on_pitch": 47,
+          "team_gls_ag_on_pitch": 22,
+          "per90_plus_minus": 1.02,
+          "per90_on_off": 0.5
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 21,
+          "fls_drawn": 25,
+          "offside": 0,
+          "crosses": 0,
+          "int": 44,
+          "tkl_won": 30,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "5939baa2",
+        "player_name": "Benjamin Stambouli",
+        "player_country_code": "FRA",
+        "age": 33
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 26,
+          "starts": "24",
+          "min": "2120",
+          "gls": "1",
+          "ast": "2",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.04,
+          "per90_ast": 0.08,
+          "per90_non_pen_gls": 0.04
+        },
+        "shooting": {
+          "sh": 16,
+          "sot": 7,
+          "pct_sot": 43.8,
+          "per90_sh": 0.68,
+          "per90_sot": 0.3,
+          "gls_per_sh": 0.06,
+          "gls_per_sot": 0.14,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 82.0,
+          "pct_squad_min": 69.3,
+          "avg_min_starter": 86.0,
+          "subs": 2,
+          "avg_min_sub": 25.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 41,
+          "team_gls_ag_on_pitch": 21,
+          "per90_plus_minus": 0.85,
+          "per90_on_off": -0.11
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 21,
+          "fls_drawn": 22,
+          "offside": 1,
+          "crosses": 17,
+          "int": 28,
+          "tkl_won": 36,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "d638ab17",
+        "player_name": "Papa Amadou Diallo",
+        "player_country_code": "SEN",
+        "age": 20
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 28,
+          "starts": "22",
+          "min": "1724",
+          "gls": "7",
+          "ast": "4",
+          "non_pen_gls": 7,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.37,
+          "per90_ast": 0.21,
+          "per90_non_pen_gls": 0.37
+        },
+        "shooting": {
+          "sh": 31,
+          "sot": 16,
+          "pct_sot": 51.6,
+          "per90_sh": 1.62,
+          "per90_sot": 0.84,
+          "gls_per_sh": 0.23,
+          "gls_per_sot": 0.44,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 62.0,
+          "pct_squad_min": 56.3,
+          "avg_min_starter": 74.0,
+          "subs": 6,
+          "avg_min_sub": 18.0,
+          "unused_sub": 1,
+          "team_gls_on_pitch": 32,
+          "team_gls_ag_on_pitch": 19,
+          "per90_plus_minus": 0.68,
+          "per90_on_off": -0.47
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 16,
+          "fls_drawn": 20,
+          "offside": 10,
+          "crosses": 39,
+          "int": 21,
+          "tkl_won": 15,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "1bc6135b",
+        "player_name": "Ablie Jallow",
+        "player_country_code": "GAM",
+        "age": 25
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,FW",
+          "matches_played": 29,
+          "starts": "18",
+          "min": "1677",
+          "gls": "5",
+          "ast": "1",
+          "non_pen_gls": 5,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": 0.27,
+          "per90_ast": 0.05,
+          "per90_non_pen_gls": 0.27
+        },
+        "shooting": {
+          "sh": 38,
+          "sot": 11,
+          "pct_sot": 28.9,
+          "per90_sh": 2.04,
+          "per90_sot": 0.59,
+          "gls_per_sh": 0.13,
+          "gls_per_sot": 0.45,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 58.0,
+          "pct_squad_min": 54.8,
+          "avg_min_starter": 83.0,
+          "subs": 11,
+          "avg_min_sub": 16.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 41,
+          "team_gls_ag_on_pitch": 17,
+          "per90_plus_minus": 1.29,
+          "per90_on_off": 0.9
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 17,
+          "fls_drawn": 31,
+          "offside": 3,
+          "crosses": 12,
+          "int": 8,
+          "tkl_won": 8,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "b666421b",
+        "player_name": "Ismaël Traoré",
+        "player_country_code": "CIV",
+        "age": 37
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 19,
+          "starts": "18",
+          "min": "1664",
+          "gls": "2",
+          "ast": "1",
+          "non_pen_gls": 2,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.11,
+          "per90_ast": 0.05,
+          "per90_non_pen_gls": 0.11
+        },
+        "shooting": {
+          "sh": 9,
+          "sot": 4,
+          "pct_sot": 44.4,
+          "per90_sh": 0.49,
+          "per90_sot": 0.22,
+          "gls_per_sh": 0.22,
+          "gls_per_sot": 0.5,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 88.0,
+          "pct_squad_min": 54.4,
+          "avg_min_starter": 90.0,
+          "subs": 1,
+          "avg_min_sub": 52.0,
+          "unused_sub": 6,
+          "team_gls_on_pitch": 25,
+          "team_gls_ag_on_pitch": 19,
+          "per90_plus_minus": 0.32,
+          "per90_on_off": -1.22
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 11,
+          "fls_drawn": 3,
+          "offside": 1,
+          "crosses": 4,
+          "int": 17,
+          "tkl_won": 16,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "79c536d7",
+        "player_name": "Arnaud Bodart",
+        "player_country_code": "BEL",
+        "age": 26
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 17,
+          "starts": "17",
+          "min": "1462",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 1,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.06,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 86.0,
+          "pct_squad_min": 47.8,
+          "avg_min_starter": 86.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 38,
+          "team_gls_ag_on_pitch": 19,
+          "per90_plus_minus": 1.17,
+          "per90_on_off": 0.55
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 2,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "ae7d0ecd",
+        "player_name": "Alexandre Oukidja",
+        "player_country_code": "ALG",
+        "age": 36
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 16,
+          "starts": "15",
+          "min": "1416",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 89.0,
+          "pct_squad_min": 46.3,
+          "avg_min_starter": 90.0,
+          "subs": 1,
+          "avg_min_sub": 66.0,
+          "unused_sub": 14,
+          "team_gls_on_pitch": 24,
+          "team_gls_ag_on_pitch": 13,
+          "per90_plus_minus": 0.7,
+          "per90_on_off": -0.34
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 5,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 1,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 1
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "bfecfbde",
+        "player_name": "Idrissa Guèye",
+        "player_country_code": "SEN",
+        "age": 17
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 17,
+          "starts": "13",
+          "min": "1102",
+          "gls": "5",
+          "ast": "1",
+          "non_pen_gls": 5,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.41,
+          "per90_ast": 0.08,
+          "per90_non_pen_gls": 0.41
+        },
+        "shooting": {
+          "sh": 31,
+          "sot": 11,
+          "pct_sot": 35.5,
+          "per90_sh": 2.53,
+          "per90_sot": 0.9,
+          "gls_per_sh": 0.16,
+          "gls_per_sot": 0.45,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 65.0,
+          "pct_squad_min": 36.0,
+          "avg_min_starter": 81.0,
+          "subs": 4,
+          "avg_min_sub": 11.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 24,
+          "team_gls_ag_on_pitch": 12,
+          "per90_plus_minus": 0.98,
+          "per90_on_off": 0.15
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 20,
+          "fls_drawn": 20,
+          "offside": 7,
+          "crosses": 1,
+          "int": 4,
+          "tkl_won": 5,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "10e51236",
+        "player_name": "Abou Lô",
+        "player_country_code": "SEN",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 16,
+          "starts": "12",
+          "min": "1048",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 4,
+          "sot": 3,
+          "pct_sot": 75.0,
+          "per90_sh": 0.34,
+          "per90_sot": 0.26,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 66.0,
+          "pct_squad_min": 34.2,
+          "avg_min_starter": 84.0,
+          "subs": 4,
+          "avg_min_sub": 10.0,
+          "unused_sub": 9,
+          "team_gls_on_pitch": 25,
+          "team_gls_ag_on_pitch": 12,
+          "per90_plus_minus": 1.12,
+          "per90_on_off": 0.36
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 7,
+          "fls_drawn": 6,
+          "offside": 0,
+          "crosses": 0,
+          "int": 9,
+          "tkl_won": 10,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "676ef6b6",
+        "player_name": "Michel Mboula",
+        "player_country_code": "GAB",
+        "age": 21
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 10,
+          "starts": "10",
+          "min": "879",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 3,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.31,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 88.0,
+          "pct_squad_min": 28.7,
+          "avg_min_starter": 88.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 1,
+          "team_gls_on_pitch": 23,
+          "team_gls_ag_on_pitch": 12,
+          "per90_plus_minus": 1.13,
+          "per90_on_off": 0.34
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 13,
+          "fls_drawn": 16,
+          "offside": 0,
+          "crosses": 2,
+          "int": 14,
+          "tkl_won": 8,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "22d90df9",
+        "player_name": "Ibou Sané",
+        "player_country_code": "SEN",
+        "age": 19
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,FW",
+          "matches_played": 22,
+          "starts": "8",
+          "min": "765",
+          "gls": "2",
+          "ast": "1",
+          "non_pen_gls": 2,
+          "pk_made": 0,
+          "pk_att": 1,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "per90_gls": 0.24,
+          "per90_ast": 0.12,
+          "per90_non_pen_gls": 0.24
+        },
+        "shooting": {
+          "sh": 22,
+          "sot": 6,
+          "pct_sot": 27.3,
+          "per90_sh": 2.59,
+          "per90_sot": 0.71,
+          "gls_per_sh": 0.09,
+          "gls_per_sot": 0.33,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 35.0,
+          "pct_squad_min": 25.0,
+          "avg_min_starter": 74.0,
+          "subs": 14,
+          "avg_min_sub": 12.0,
+          "unused_sub": 4,
+          "team_gls_on_pitch": 16,
+          "team_gls_ag_on_pitch": 10,
+          "per90_plus_minus": 0.71,
+          "per90_on_off": -0.24
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 11,
+          "fls_drawn": 17,
+          "offside": 3,
+          "crosses": 8,
+          "int": 1,
+          "tkl_won": 7,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "026fea1e",
+        "player_name": "Morgan Bokelé Mputu",
+        "player_country_code": "CMR",
+        "age": 20
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 28,
+          "starts": "7",
+          "min": "799",
+          "gls": "3",
+          "ast": "2",
+          "non_pen_gls": 3,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.34,
+          "per90_ast": 0.23,
+          "per90_non_pen_gls": 0.34
+        },
+        "shooting": {
+          "sh": 25,
+          "sot": 10,
+          "pct_sot": 40.0,
+          "per90_sh": 2.82,
+          "per90_sot": 1.13,
+          "gls_per_sh": 0.12,
+          "gls_per_sot": 0.3,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 29.0,
+          "pct_squad_min": 26.1,
+          "avg_min_starter": 72.0,
+          "subs": 21,
+          "avg_min_sub": 14.0,
+          "unused_sub": 3,
+          "team_gls_on_pitch": 21,
+          "team_gls_ag_on_pitch": 9,
+          "per90_plus_minus": 1.35,
+          "per90_on_off": 0.64
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 9,
+          "fls_drawn": 23,
+          "offside": 0,
+          "crosses": 30,
+          "int": 11,
+          "tkl_won": 9,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "2f71c116",
+        "player_name": "Maxime Colin",
+        "player_country_code": "FRA",
+        "age": 32
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 16,
+          "starts": "7",
+          "min": "611",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 2,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.29,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 38.0,
+          "pct_squad_min": 20.0,
+          "avg_min_starter": 74.0,
+          "subs": 9,
+          "avg_min_sub": 10.0,
+          "unused_sub": 12,
+          "team_gls_on_pitch": 18,
+          "team_gls_ag_on_pitch": 6,
+          "per90_plus_minus": 1.77,
+          "per90_on_off": 1.11
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 9,
+          "fls_drawn": 2,
+          "offside": 0,
+          "crosses": 7,
+          "int": 14,
+          "tkl_won": 9,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "3437d224",
+        "player_name": "Alpha Amadou Touré",
+        "player_country_code": "SEN",
+        "age": 18
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 16,
+          "starts": "6",
+          "min": "716",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 5,
+          "sot": 2,
+          "pct_sot": 40.0,
+          "per90_sh": 0.63,
+          "per90_sot": 0.25,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 45.0,
+          "pct_squad_min": 23.4,
+          "avg_min_starter": 89.0,
+          "subs": 10,
+          "avg_min_sub": 18.0,
+          "unused_sub": 7,
+          "team_gls_on_pitch": 16,
+          "team_gls_ag_on_pitch": 10,
+          "per90_plus_minus": 0.75,
+          "per90_on_off": -0.17
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 13,
+          "fls_drawn": 11,
+          "offside": 0,
+          "crosses": 5,
+          "int": 5,
+          "tkl_won": 15,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "3cc4bb19",
+        "player_name": "Fali Candé",
+        "player_country_code": "GNB",
+        "age": 26
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF,MF",
+          "matches_played": 8,
+          "starts": "6",
+          "min": "505",
+          "gls": "0",
+          "ast": "1",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.18,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 5,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.89,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 63.0,
+          "pct_squad_min": 16.5,
+          "avg_min_starter": 77.0,
+          "subs": 2,
+          "avg_min_sub": 22.0,
+          "unused_sub": 6,
+          "team_gls_on_pitch": 7,
+          "team_gls_ag_on_pitch": 6,
+          "per90_plus_minus": 0.18,
+          "per90_on_off": -0.84
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 9,
+          "fls_drawn": 9,
+          "offside": 2,
+          "crosses": 13,
+          "int": 5,
+          "tkl_won": 7,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "f6a3c84d",
+        "player_name": "Kévin Van Den Kerkhof",
+        "player_country_code": "ALG",
+        "age": 28
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 14,
+          "starts": "4",
+          "min": "523",
+          "gls": "2",
+          "ast": "3",
+          "non_pen_gls": 2,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "per90_gls": 0.34,
+          "per90_ast": 0.52,
+          "per90_non_pen_gls": 0.34
+        },
+        "shooting": {
+          "sh": 5,
+          "sot": 3,
+          "pct_sot": 60.0,
+          "per90_sh": 0.86,
+          "per90_sot": 0.52,
+          "gls_per_sh": 0.4,
+          "gls_per_sot": 0.67,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 37.0,
+          "pct_squad_min": 17.1,
+          "avg_min_starter": 80.0,
+          "subs": 10,
+          "avg_min_sub": 20.0,
+          "unused_sub": 4,
+          "team_gls_on_pitch": 17,
+          "team_gls_ag_on_pitch": 9,
+          "per90_plus_minus": 1.38,
+          "per90_on_off": 0.6
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 6,
+          "fls_drawn": 3,
+          "offside": 1,
+          "crosses": 24,
+          "int": 6,
+          "tkl_won": 7,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "f365b837",
+        "player_name": "Joseph Nduquidi",
+        "player_country_code": "FRA",
+        "age": 19
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 10,
+          "starts": "4",
+          "min": "417",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 2,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.43,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 42.0,
+          "pct_squad_min": 13.6,
+          "avg_min_starter": 82.0,
+          "subs": 6,
+          "avg_min_sub": 15.0,
+          "unused_sub": 8,
+          "team_gls_on_pitch": 8,
+          "team_gls_ag_on_pitch": 6,
+          "per90_plus_minus": 0.43,
+          "per90_on_off": -0.52
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 6,
+          "fls_drawn": 11,
+          "offside": 1,
+          "crosses": 2,
+          "int": 1,
+          "tkl_won": 3,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "825ed0d1",
+        "player_name": "Simon Elisor",
+        "player_country_code": "FRA",
+        "age": 25
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 9,
+          "starts": "4",
+          "min": "328",
+          "gls": "0",
+          "ast": "3",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.82,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 6,
+          "sot": 3,
+          "pct_sot": 50.0,
+          "per90_sh": 1.65,
+          "per90_sot": 0.82,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 36.0,
+          "pct_squad_min": 10.7,
+          "avg_min_starter": 69.0,
+          "subs": 5,
+          "avg_min_sub": 10.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 6,
+          "team_gls_ag_on_pitch": 3,
+          "per90_plus_minus": 0.82,
+          "per90_on_off": -0.07
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 6,
+          "fls_drawn": 3,
+          "offside": 5,
+          "crosses": 2,
+          "int": 1,
+          "tkl_won": 1,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "13e827f8",
+        "player_name": "Joel Asoro",
+        "player_country_code": "SWE",
+        "age": 25
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 20,
+          "starts": "2",
+          "min": "321",
+          "gls": "3",
+          "ast": "2",
+          "non_pen_gls": 3,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.84,
+          "per90_ast": 0.56,
+          "per90_non_pen_gls": 0.84
+        },
+        "shooting": {
+          "sh": 12,
+          "sot": 8,
+          "pct_sot": 66.7,
+          "per90_sh": 3.36,
+          "per90_sot": 2.24,
+          "gls_per_sh": 0.25,
+          "gls_per_sot": 0.38,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 16.0,
+          "pct_squad_min": 10.5,
+          "avg_min_starter": 61.0,
+          "subs": 18,
+          "avg_min_sub": 11.0,
+          "unused_sub": 3,
+          "team_gls_on_pitch": 10,
+          "team_gls_ag_on_pitch": 5,
+          "per90_plus_minus": 1.4,
+          "per90_on_off": 0.58
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 4,
+          "fls_drawn": 8,
+          "offside": 0,
+          "crosses": 7,
+          "int": 2,
+          "tkl_won": 1,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "9a5619c5",
+        "player_name": "Pape Mamadou Sy",
+        "player_country_code": "SEN",
+        "age": 27
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 3,
+          "starts": "2",
+          "min": "182",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 61.0,
+          "pct_squad_min": 5.9,
+          "avg_min_starter": 57.0,
+          "subs": 1,
+          "avg_min_sub": 68.0,
+          "unused_sub": 11,
+          "team_gls_on_pitch": 2,
+          "team_gls_ag_on_pitch": 2,
+          "per90_plus_minus": 0.0,
+          "per90_on_off": -0.94
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "39ded848",
+        "player_name": "Joseph Mangondo",
+        "player_country_code": "FRA",
+        "age": 18
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 4,
+          "starts": "0",
+          "min": "81",
+          "gls": "0",
+          "ast": "1",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 1.11,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 3,
+          "sot": 1,
+          "pct_sot": 33.3,
+          "per90_sh": 3.33,
+          "per90_sot": 1.11,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 20.0,
+          "pct_squad_min": 2.6,
+          "avg_min_starter": null,
+          "subs": 4,
+          "avg_min_sub": 20.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 4,
+          "team_gls_ag_on_pitch": 2,
+          "per90_plus_minus": 2.22,
+          "per90_on_off": 1.38
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 2,
+          "fls_drawn": 3,
+          "offside": 0,
+          "crosses": 1,
+          "int": 0,
+          "tkl_won": 3,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "d3ddf88b",
+        "player_name": "Arthur Atta",
+        "player_country_code": "FRA",
+        "age": 21
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 2,
+          "starts": "0",
+          "min": "49",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 25.0,
+          "pct_squad_min": 1.6,
+          "avg_min_starter": null,
+          "subs": 2,
+          "avg_min_sub": 25.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 1,
+          "team_gls_ag_on_pitch": 0,
+          "per90_plus_minus": 1.84,
+          "per90_on_off": 0.97
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 3,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "448256fc",
+        "player_name": "Ismaël Guerti",
+        "player_country_code": "FRA",
+        "age": 20
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 1,
+          "starts": "0",
+          "min": "16",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 16.0,
+          "pct_squad_min": 0.5,
+          "avg_min_starter": null,
+          "subs": 1,
+          "avg_min_sub": 16.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 2,
+          "team_gls_ag_on_pitch": 0,
+          "per90_plus_minus": 11.25,
+          "per90_on_off": 10.42
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 1,
+          "fls_drawn": 1,
+          "offside": 0,
+          "crosses": 0,
+          "int": 1,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 1,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 6,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 1,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    }
+  ],
+  "keepers": [
+    {
+      "meta_data": {
+        "player_id": "79c536d7",
+        "player_name": "Arnaud Bodart",
+        "player_country_code": "BEL",
+        "age": 26
+      },
+      "stats": {
+        "keepers": {
+          "positions": "GK",
+          "matches_played": 17,
+          "starts": 17,
+          "min": 1462,
+          "gls_ag": "19",
+          "per90_gls_ag": "1.17",
+          "sot_ag": "61",
+          "saves": "44",
+          "save_pct": "70.5",
+          "clean_sheets": "3",
+          "clean_sheet_pct": "17.6",
+          "pk_att_ag": "3",
+          "pk_made_ag": "1",
+          "pk_saved": "1",
+          "pk_miss_ag": "1",
+          "pk_save_pct": "50.0"
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "ae7d0ecd",
+        "player_name": "Alexandre Oukidja",
+        "player_country_code": "ALG",
+        "age": 36
+      },
+      "stats": {
+        "keepers": {
+          "positions": "GK",
+          "matches_played": 16,
+          "starts": 15,
+          "min": 1416,
+          "gls_ag": "13",
+          "per90_gls_ag": "0.83",
+          "sot_ag": "59",
+          "saves": "47",
+          "save_pct": "79.7",
+          "clean_sheets": "6",
+          "clean_sheet_pct": "40.0",
+          "pk_att_ag": "1",
+          "pk_made_ag": "1",
+          "pk_saved": "0",
+          "pk_miss_ag": "0",
+          "pk_save_pct": "0.0"
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "9a5619c5",
+        "player_name": "Pape Mamadou Sy",
+        "player_country_code": "SEN",
+        "age": 27
+      },
+      "stats": {
+        "keepers": {
+          "positions": "GK",
+          "matches_played": 3,
+          "starts": 2,
+          "min": 182,
+          "gls_ag": "2",
+          "per90_gls_ag": "0.99",
+          "sot_ag": "12",
+          "saves": "10",
+          "save_pct": "83.3",
+          "clean_sheets": "2",
+          "clean_sheet_pct": "100.0",
+          "pk_att_ag": "0",
+          "pk_made_ag": "0",
+          "pk_saved": "0",
+          "pk_miss_ag": "0",
+          "pk_save_pct": ""
+        }
+      }
+    }
+  ]
+}

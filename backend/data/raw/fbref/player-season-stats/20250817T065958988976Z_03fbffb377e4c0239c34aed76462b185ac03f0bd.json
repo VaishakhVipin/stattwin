@@ -1,0 +1,1654 @@
+{
+  "players": [
+    {
+      "meta_data": {
+        "player_id": "a037c229",
+        "player_name": "Nicolas Kristof",
+        "player_country_code": "GER",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 34,
+          "starts": "34",
+          "min": "3060",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 90.0,
+          "pct_squad_min": 100.0,
+          "avg_min_starter": 90.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 64,
+          "team_gls_ag_on_pitch": 37,
+          "per90_plus_minus": 0.79,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 1,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "7793386d",
+        "player_name": "Maurice Neubauer",
+        "player_country_code": "GER",
+        "age": 28
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 34,
+          "starts": "34",
+          "min": "3060",
+          "gls": "3",
+          "ast": "6",
+          "non_pen_gls": 3,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.09,
+          "per90_ast": 0.18,
+          "per90_non_pen_gls": 0.09
+        },
+        "shooting": {
+          "sh": 28,
+          "sot": 9,
+          "pct_sot": 32.1,
+          "per90_sh": 0.82,
+          "per90_sot": 0.26,
+          "gls_per_sh": 0.11,
+          "gls_per_sot": 0.33,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 90.0,
+          "pct_squad_min": 100.0,
+          "avg_min_starter": 90.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 64,
+          "team_gls_ag_on_pitch": 37,
+          "per90_plus_minus": 0.79,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 34,
+          "fls_drawn": 15,
+          "offside": 5,
+          "crosses": 193,
+          "int": 27,
+          "tkl_won": 41,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "f14e81d2",
+        "player_name": "Lukas Pinckert",
+        "player_country_code": "GER",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 33,
+          "starts": "33",
+          "min": "2897",
+          "gls": "0",
+          "ast": "2",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 10,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.06,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 10,
+          "sot": 2,
+          "pct_sot": 20.0,
+          "per90_sh": 0.31,
+          "per90_sot": 0.06,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 88.0,
+          "pct_squad_min": 94.7,
+          "avg_min_starter": 88.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 61,
+          "team_gls_ag_on_pitch": 32,
+          "per90_plus_minus": 0.9,
+          "per90_on_off": 2.01
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 28,
+          "fls_drawn": 32,
+          "offside": 0,
+          "crosses": 8,
+          "int": 40,
+          "tkl_won": 43,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "54d2b378",
+        "player_name": "Elias Baum",
+        "player_country_code": "GER",
+        "age": 18
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 33,
+          "starts": "33",
+          "min": "2892",
+          "gls": "3",
+          "ast": "5",
+          "non_pen_gls": 3,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 6,
+          "red_cards": 1,
+          "per90_gls": 0.09,
+          "per90_ast": 0.16,
+          "per90_non_pen_gls": 0.09
+        },
+        "shooting": {
+          "sh": 19,
+          "sot": 6,
+          "pct_sot": 31.6,
+          "per90_sh": 0.59,
+          "per90_sot": 0.19,
+          "gls_per_sh": 0.16,
+          "gls_per_sot": 0.5,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 88.0,
+          "pct_squad_min": 94.5,
+          "avg_min_starter": 88.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 61,
+          "team_gls_ag_on_pitch": 34,
+          "per90_plus_minus": 0.84,
+          "per90_on_off": 0.84
+        },
+        "misc": {
+          "second_yellow_cards": 1,
+          "fls_com": 24,
+          "fls_drawn": 49,
+          "offside": 1,
+          "crosses": 97,
+          "int": 39,
+          "tkl_won": 54,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "35f67a30",
+        "player_name": "Fisnik Asllani",
+        "player_country_code": "KVX",
+        "age": 21
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 33,
+          "starts": "31",
+          "min": "2769",
+          "gls": "18",
+          "ast": "9",
+          "non_pen_gls": 18,
+          "pk_made": 0,
+          "pk_att": 1,
+          "yellow_cards": 5,
+          "red_cards": 0,
+          "per90_gls": 0.59,
+          "per90_ast": 0.29,
+          "per90_non_pen_gls": 0.59
+        },
+        "shooting": {
+          "sh": 107,
+          "sot": 41,
+          "pct_sot": 38.3,
+          "per90_sh": 3.48,
+          "per90_sot": 1.33,
+          "gls_per_sh": 0.17,
+          "gls_per_sot": 0.44,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 84.0,
+          "pct_squad_min": 90.5,
+          "avg_min_starter": 87.0,
+          "subs": 2,
+          "avg_min_sub": 37.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 59,
+          "team_gls_ag_on_pitch": 31,
+          "per90_plus_minus": 0.91,
+          "per90_on_off": 1.22
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 33,
+          "fls_drawn": 57,
+          "offside": 14,
+          "crosses": 3,
+          "int": 3,
+          "tkl_won": 9,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "d3d77413",
+        "player_name": "Muhammed Damar",
+        "player_country_code": "GER",
+        "age": 20
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 31,
+          "starts": "30",
+          "min": "2409",
+          "gls": "9",
+          "ast": "3",
+          "non_pen_gls": 9,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 5,
+          "red_cards": 0,
+          "per90_gls": 0.34,
+          "per90_ast": 0.11,
+          "per90_non_pen_gls": 0.34
+        },
+        "shooting": {
+          "sh": 61,
+          "sot": 23,
+          "pct_sot": 37.7,
+          "per90_sh": 2.28,
+          "per90_sot": 0.86,
+          "gls_per_sh": 0.15,
+          "gls_per_sot": 0.39,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 78.0,
+          "pct_squad_min": 78.7,
+          "avg_min_starter": 79.0,
+          "subs": 1,
+          "avg_min_sub": 33.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 53,
+          "team_gls_ag_on_pitch": 27,
+          "per90_plus_minus": 0.97,
+          "per90_on_off": 0.83
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 45,
+          "fls_drawn": 38,
+          "offside": 3,
+          "crosses": 88,
+          "int": 12,
+          "tkl_won": 21,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "f503ef6e",
+        "player_name": "Lukas Petkov",
+        "player_country_code": "BUL",
+        "age": 23
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 30,
+          "starts": "26",
+          "min": "2147",
+          "gls": "4",
+          "ast": "3",
+          "non_pen_gls": 4,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 7,
+          "red_cards": 1,
+          "per90_gls": 0.17,
+          "per90_ast": 0.13,
+          "per90_non_pen_gls": 0.17
+        },
+        "shooting": {
+          "sh": 53,
+          "sot": 15,
+          "pct_sot": 28.3,
+          "per90_sh": 2.22,
+          "per90_sot": 0.63,
+          "gls_per_sh": 0.08,
+          "gls_per_sot": 0.27,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 72.0,
+          "pct_squad_min": 70.2,
+          "avg_min_starter": 78.0,
+          "subs": 4,
+          "avg_min_sub": 29.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 45,
+          "team_gls_ag_on_pitch": 27,
+          "per90_plus_minus": 0.75,
+          "per90_on_off": -0.13
+        },
+        "misc": {
+          "second_yellow_cards": 1,
+          "fls_com": 36,
+          "fls_drawn": 49,
+          "offside": 6,
+          "crosses": 39,
+          "int": 8,
+          "tkl_won": 24,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "b6ce3e6c",
+        "player_name": "Robin Fellhauer",
+        "player_country_code": "GER",
+        "age": 26
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 25,
+          "starts": "24",
+          "min": "2077",
+          "gls": "5",
+          "ast": "3",
+          "non_pen_gls": 5,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 5,
+          "red_cards": 0,
+          "per90_gls": 0.22,
+          "per90_ast": 0.13,
+          "per90_non_pen_gls": 0.22
+        },
+        "shooting": {
+          "sh": 25,
+          "sot": 9,
+          "pct_sot": 36.0,
+          "per90_sh": 1.08,
+          "per90_sot": 0.39,
+          "gls_per_sh": 0.2,
+          "gls_per_sot": 0.56,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 83.0,
+          "pct_squad_min": 67.9,
+          "avg_min_starter": 86.0,
+          "subs": 1,
+          "avg_min_sub": 4.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 46,
+          "team_gls_ag_on_pitch": 20,
+          "per90_plus_minus": 1.13,
+          "per90_on_off": 1.04
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 22,
+          "fls_drawn": 35,
+          "offside": 0,
+          "crosses": 23,
+          "int": 34,
+          "tkl_won": 33,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "7e4c5a4a",
+        "player_name": "Maximilian Rohr",
+        "player_country_code": "GER",
+        "age": 29
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 25,
+          "starts": "22",
+          "min": "1979",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 5,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 3,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.14,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 79.0,
+          "pct_squad_min": 64.7,
+          "avg_min_starter": 87.0,
+          "subs": 3,
+          "avg_min_sub": 24.0,
+          "unused_sub": 3,
+          "team_gls_on_pitch": 37,
+          "team_gls_ag_on_pitch": 27,
+          "per90_plus_minus": 0.45,
+          "per90_on_off": -0.96
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 16,
+          "fls_drawn": 14,
+          "offside": 1,
+          "crosses": 2,
+          "int": 28,
+          "tkl_won": 40,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "34407a13",
+        "player_name": "Tom Zimmerschied",
+        "player_country_code": "GER",
+        "age": 25
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 24,
+          "starts": "21",
+          "min": "1649",
+          "gls": "4",
+          "ast": "5",
+          "non_pen_gls": 4,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.22,
+          "per90_ast": 0.27,
+          "per90_non_pen_gls": 0.22
+        },
+        "shooting": {
+          "sh": 38,
+          "sot": 15,
+          "pct_sot": 39.5,
+          "per90_sh": 2.07,
+          "per90_sot": 0.82,
+          "gls_per_sh": 0.11,
+          "gls_per_sot": 0.27,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 69.0,
+          "pct_squad_min": 53.9,
+          "avg_min_starter": 75.0,
+          "subs": 3,
+          "avg_min_sub": 27.0,
+          "unused_sub": 2,
+          "team_gls_on_pitch": 38,
+          "team_gls_ag_on_pitch": 13,
+          "per90_plus_minus": 1.36,
+          "per90_on_off": 1.24
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 18,
+          "fls_drawn": 37,
+          "offside": 3,
+          "crosses": 12,
+          "int": 12,
+          "tkl_won": 15,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "3f6ca46e",
+        "player_name": "Carlo Sickinger",
+        "player_country_code": "GER",
+        "age": 27
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 32,
+          "starts": "19",
+          "min": "1758",
+          "gls": "5",
+          "ast": "0",
+          "non_pen_gls": 2,
+          "pk_made": 3,
+          "pk_att": 3,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.26,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.1
+        },
+        "shooting": {
+          "sh": 24,
+          "sot": 9,
+          "pct_sot": 37.5,
+          "per90_sh": 1.23,
+          "per90_sot": 0.46,
+          "gls_per_sh": 0.08,
+          "gls_per_sot": 0.22,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 55.0,
+          "pct_squad_min": 57.5,
+          "avg_min_starter": 79.0,
+          "subs": 13,
+          "avg_min_sub": 20.0,
+          "unused_sub": 2,
+          "team_gls_on_pitch": 35,
+          "team_gls_ag_on_pitch": 22,
+          "per90_plus_minus": 0.67,
+          "per90_on_off": -0.3
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 29,
+          "fls_drawn": 25,
+          "offside": 0,
+          "crosses": 10,
+          "int": 27,
+          "tkl_won": 27,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "59015175",
+        "player_name": "Semih Sahin",
+        "player_country_code": "GER",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 22,
+          "starts": "19",
+          "min": "1654",
+          "gls": "4",
+          "ast": "3",
+          "non_pen_gls": 1,
+          "pk_made": 3,
+          "pk_att": 3,
+          "yellow_cards": 5,
+          "red_cards": 0,
+          "per90_gls": 0.22,
+          "per90_ast": 0.16,
+          "per90_non_pen_gls": 0.05
+        },
+        "shooting": {
+          "sh": 20,
+          "sot": 6,
+          "pct_sot": 30.0,
+          "per90_sh": 1.09,
+          "per90_sot": 0.33,
+          "gls_per_sh": 0.05,
+          "gls_per_sot": 0.17,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 75.0,
+          "pct_squad_min": 54.1,
+          "avg_min_starter": 80.0,
+          "subs": 3,
+          "avg_min_sub": 45.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 34,
+          "team_gls_ag_on_pitch": 20,
+          "per90_plus_minus": 0.76,
+          "per90_on_off": -0.07
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 13,
+          "fls_drawn": 12,
+          "offside": 0,
+          "crosses": 20,
+          "int": 22,
+          "tkl_won": 26,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "b72756f1",
+        "player_name": "Luca Schnellbacher",
+        "player_country_code": "GER",
+        "age": 30
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW,MF",
+          "matches_played": 29,
+          "starts": "15",
+          "min": "1295",
+          "gls": "6",
+          "ast": "1",
+          "non_pen_gls": 6,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": 0.42,
+          "per90_ast": 0.07,
+          "per90_non_pen_gls": 0.42
+        },
+        "shooting": {
+          "sh": 36,
+          "sot": 15,
+          "pct_sot": 41.7,
+          "per90_sh": 2.5,
+          "per90_sot": 1.04,
+          "gls_per_sh": 0.17,
+          "gls_per_sot": 0.4,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 45.0,
+          "pct_squad_min": 42.3,
+          "avg_min_starter": 72.0,
+          "subs": 14,
+          "avg_min_sub": 16.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 20,
+          "team_gls_ag_on_pitch": 18,
+          "per90_plus_minus": 0.14,
+          "per90_on_off": -1.14
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 10,
+          "fls_drawn": 19,
+          "offside": 8,
+          "crosses": 1,
+          "int": 1,
+          "tkl_won": 4,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "3a229338",
+        "player_name": "Florian Le Joncour",
+        "player_country_code": "FRA",
+        "age": 29
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 17,
+          "starts": "13",
+          "min": "1245",
+          "gls": "1",
+          "ast": "1",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.07,
+          "per90_ast": 0.07,
+          "per90_non_pen_gls": 0.07
+        },
+        "shooting": {
+          "sh": 6,
+          "sot": 1,
+          "pct_sot": 16.7,
+          "per90_sh": 0.43,
+          "per90_sot": 0.07,
+          "gls_per_sh": 0.17,
+          "gls_per_sot": 1.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 73.0,
+          "pct_squad_min": 40.7,
+          "avg_min_starter": 89.0,
+          "subs": 4,
+          "avg_min_sub": 23.0,
+          "unused_sub": 8,
+          "team_gls_on_pitch": 30,
+          "team_gls_ag_on_pitch": 15,
+          "per90_plus_minus": 1.08,
+          "per90_on_off": 0.49
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 8,
+          "fls_drawn": 2,
+          "offside": 0,
+          "crosses": 1,
+          "int": 21,
+          "tkl_won": 3,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "af55919f",
+        "player_name": "Frederik Schmahl",
+        "player_country_code": "GER",
+        "age": 21
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 30,
+          "starts": "9",
+          "min": "1043",
+          "gls": "1",
+          "ast": "0",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 1,
+          "per90_gls": 0.09,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.09
+        },
+        "shooting": {
+          "sh": 10,
+          "sot": 5,
+          "pct_sot": 50.0,
+          "per90_sh": 0.86,
+          "per90_sot": 0.43,
+          "gls_per_sh": 0.1,
+          "gls_per_sot": 0.2,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 35.0,
+          "pct_squad_min": 34.1,
+          "avg_min_starter": 74.0,
+          "subs": 21,
+          "avg_min_sub": 18.0,
+          "unused_sub": 2,
+          "team_gls_on_pitch": 25,
+          "team_gls_ag_on_pitch": 11,
+          "per90_plus_minus": 1.21,
+          "per90_on_off": 0.63
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 11,
+          "fls_drawn": 16,
+          "offside": 0,
+          "crosses": 15,
+          "int": 7,
+          "tkl_won": 12,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "9341203b",
+        "player_name": "Manuel Feil",
+        "player_country_code": "GER",
+        "age": 29
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,FW",
+          "matches_played": 26,
+          "starts": "8",
+          "min": "809",
+          "gls": "0",
+          "ast": "3",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.33,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 14,
+          "sot": 6,
+          "pct_sot": 42.9,
+          "per90_sh": 1.56,
+          "per90_sot": 0.67,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 31.0,
+          "pct_squad_min": 26.4,
+          "avg_min_starter": 63.0,
+          "subs": 18,
+          "avg_min_sub": 17.0,
+          "unused_sub": 8,
+          "team_gls_on_pitch": 18,
+          "team_gls_ag_on_pitch": 9,
+          "per90_plus_minus": 1.0,
+          "per90_on_off": 0.28
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 7,
+          "fls_drawn": 6,
+          "offside": 0,
+          "crosses": 7,
+          "int": 5,
+          "tkl_won": 15,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "371d4435",
+        "player_name": "Paul Stock",
+        "player_country_code": "GER",
+        "age": 27
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 20,
+          "starts": "2",
+          "min": "267",
+          "gls": "0",
+          "ast": "3",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 1.01,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 4,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 1.35,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 13.0,
+          "pct_squad_min": 8.7,
+          "avg_min_starter": 65.0,
+          "subs": 18,
+          "avg_min_sub": 8.0,
+          "unused_sub": 12,
+          "team_gls_on_pitch": 5,
+          "team_gls_ag_on_pitch": 3,
+          "per90_plus_minus": 0.67,
+          "per90_on_off": -0.13
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 4,
+          "fls_drawn": 5,
+          "offside": 1,
+          "crosses": 6,
+          "int": 1,
+          "tkl_won": 6,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "8997bf7e",
+        "player_name": "Filimon Gerezgiher",
+        "player_country_code": "GER",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 19,
+          "starts": "1",
+          "min": "374",
+          "gls": "1",
+          "ast": "1",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.24,
+          "per90_ast": 0.24,
+          "per90_non_pen_gls": 0.24
+        },
+        "shooting": {
+          "sh": 9,
+          "sot": 2,
+          "pct_sot": 22.2,
+          "per90_sh": 2.17,
+          "per90_sot": 0.48,
+          "gls_per_sh": 0.11,
+          "gls_per_sot": 0.5,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 20.0,
+          "pct_squad_min": 12.2,
+          "avg_min_starter": 77.0,
+          "subs": 18,
+          "avg_min_sub": 17.0,
+          "unused_sub": 13,
+          "team_gls_on_pitch": 7,
+          "team_gls_ag_on_pitch": 10,
+          "per90_plus_minus": -0.72,
+          "per90_on_off": -1.73
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 7,
+          "fls_drawn": 5,
+          "offside": 2,
+          "crosses": 6,
+          "int": 0,
+          "tkl_won": 4,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "29b88f2a",
+        "player_name": "Arne Sicker",
+        "player_country_code": "GER",
+        "age": 27
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 6,
+          "starts": "0",
+          "min": "74",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 1,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 1.22,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 12.0,
+          "pct_squad_min": 2.4,
+          "avg_min_starter": null,
+          "subs": 6,
+          "avg_min_sub": 12.0,
+          "unused_sub": 22,
+          "team_gls_on_pitch": 1,
+          "team_gls_ag_on_pitch": 5,
+          "per90_plus_minus": -4.86,
+          "per90_on_off": -5.8
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 2,
+          "fls_drawn": 1,
+          "offside": 0,
+          "crosses": 2,
+          "int": 1,
+          "tkl_won": 5,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "a5483c84",
+        "player_name": "Luca Dürholtz",
+        "player_country_code": "GER",
+        "age": 30
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 3,
+          "starts": "0",
+          "min": "68",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 23.0,
+          "pct_squad_min": 2.2,
+          "avg_min_starter": null,
+          "subs": 3,
+          "avg_min_sub": 23.0,
+          "unused_sub": 17,
+          "team_gls_on_pitch": 0,
+          "team_gls_ag_on_pitch": 2,
+          "per90_plus_minus": -2.65,
+          "per90_on_off": -3.52
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "2e68a0ef",
+        "player_name": "Younes Ebnoutalib",
+        "player_country_code": "GER",
+        "age": 20
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 4,
+          "starts": "0",
+          "min": "46",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 12.0,
+          "pct_squad_min": 1.5,
+          "avg_min_starter": null,
+          "subs": 4,
+          "avg_min_sub": 12.0,
+          "unused_sub": 10,
+          "team_gls_on_pitch": 1,
+          "team_gls_ag_on_pitch": 1,
+          "per90_plus_minus": 0.0,
+          "per90_on_off": -0.81
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 2,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "4907f205",
+        "player_name": "Mohammad Mahmoud",
+        "player_country_code": "GER",
+        "age": 19
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 4,
+          "starts": "0",
+          "min": "37",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 2,
+          "sot": 1,
+          "pct_sot": 50.0,
+          "per90_sh": 4.86,
+          "per90_sot": 2.43,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 9.0,
+          "pct_squad_min": 1.2,
+          "avg_min_starter": null,
+          "subs": 4,
+          "avg_min_sub": 9.0,
+          "unused_sub": 14,
+          "team_gls_on_pitch": 0,
+          "team_gls_ag_on_pitch": 1,
+          "per90_plus_minus": -2.43,
+          "per90_on_off": -3.27
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 2,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "25b1d2d1",
+        "player_name": "Frederik Jäkel",
+        "player_country_code": "GER",
+        "age": 23
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 1,
+          "starts": "0",
+          "min": "1",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 1.0,
+          "pct_squad_min": 0.0,
+          "avg_min_starter": null,
+          "subs": 1,
+          "avg_min_sub": 1.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 0,
+          "team_gls_ag_on_pitch": 0,
+          "per90_plus_minus": 0.0,
+          "per90_on_off": -0.79
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 1,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": 0.0,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 33,
+          "team_gls_on_pitch": 1,
+          "team_gls_ag_on_pitch": 4,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 2,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 2,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 4,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    }
+  ],
+  "keepers": [
+    {
+      "meta_data": {
+        "player_id": "a037c229",
+        "player_name": "Nicolas Kristof",
+        "player_country_code": "GER",
+        "age": 24
+      },
+      "stats": {
+        "keepers": {
+          "positions": "GK",
+          "matches_played": 34,
+          "starts": 34,
+          "min": 3060,
+          "gls_ag": "37",
+          "per90_gls_ag": "1.09",
+          "sot_ag": "120",
+          "saves": "84",
+          "save_pct": "70.8",
+          "clean_sheets": "13",
+          "clean_sheet_pct": "38.2",
+          "pk_att_ag": "2",
+          "pk_made_ag": "2",
+          "pk_saved": "0",
+          "pk_miss_ag": "0",
+          "pk_save_pct": "0.0"
+        }
+      }
+    }
+  ]
+}

@@ -24,6 +24,8 @@ def _default_ratio_specs() -> List[RatioSpec]:
         RatioSpec("passes_completed", "passes_attempted", "pass_completion", 100.0),
         RatioSpec("tackles_won", "tackles", "tackles_win_ratio", None),
         RatioSpec("aerials_won", "aerials_contested", "aerial_win_ratio", None),
+        # Added: dribble/take-on success ratio where available
+        RatioSpec("take_on_suc", "take_on_att", "take_on_success_ratio", None),
     ]
 
 
@@ -177,6 +179,12 @@ def engineer_features(df: pd.DataFrame, cfg: PreprocessingConfig) -> Tuple[pd.Da
     out = df.copy()
     created: List[str] = []
 
+    # Derive aerials_contested if possible
+    if "aerials_won" in out.columns and "aerials_lost" in out.columns:
+        if "aerials_contested" not in out.columns:
+            out["aerials_contested"] = out["aerials_won"].astype(float) + out["aerials_lost"].astype(float)
+            created.append("aerials_contested")
+
     # Ratios
     for spec in cfg.ratio_specs:
         if spec.numerator in out.columns and spec.denominator in out.columns:
@@ -199,6 +207,9 @@ def engineer_features(df: pd.DataFrame, cfg: PreprocessingConfig) -> Tuple[pd.Da
 
 def normalize(df: pd.DataFrame, cfg: PreprocessingConfig, cols: Optional[Sequence[str]] = None) -> Tuple[pd.DataFrame, List[str], Any]:
     out = df.copy()
+    # Early guard: if no rows, skip scaling to avoid sklearn errors
+    if out.shape[0] == 0:
+        return out, [], None
     target_cols = list(cols) if cols is not None else (cfg.normalize_cols or [])
     if not target_cols:
         # default: normalize all numeric engineered/per90 columns (exclude id/meta and minutes)
@@ -241,15 +252,18 @@ def validate(df: pd.DataFrame, cfg: PreprocessingConfig) -> Dict[str, Any]:
 
     # Minutes should be non-negative
     if cfg.minutes_col in df.columns:
-        invalid_minutes = int((df[cfg.minutes_col] < 0).sum())
+        # Coerce to numeric to avoid comparing strings with ints
+        minutes_numeric = pd.to_numeric(df[cfg.minutes_col], errors="coerce")
+        invalid_minutes = int((minutes_numeric < 0).sum())
         if invalid_minutes:
             issues["invalid_minutes"] = invalid_minutes
 
     # Percentages (if features present) should be in [0, 100]
     for col in df.columns:
         if col.endswith("_pct") or col in {"pass_completion"}:  # example percentage-like columns
-            below0 = int((df[col] < 0).sum())
-            above100 = int((df[col] > 100).sum())
+            s = pd.to_numeric(df[col], errors="coerce")
+            below0 = int((s < 0).sum())
+            above100 = int((s > 100).sum())
             if below0 or above100:
                 issues[f"out_of_range_{col}"] = {"lt0": below0, "gt100": above100}
 

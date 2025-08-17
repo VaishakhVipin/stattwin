@@ -1,0 +1,326 @@
+{
+  "data": [
+    {
+      "season_id": "2025-2026",
+      "competition_name": "Ligue 1",
+      "#_squads": 18,
+      "champion": "",
+      "top_scorer": {
+        "player": "Ludovic Blas",
+        "goals_scored": 1
+      }
+    },
+    {
+      "season_id": "2024-2025",
+      "competition_name": "Ligue 1",
+      "#_squads": 18,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": [
+          "Mason Greenwood",
+          "Ousmane Dembélé"
+        ],
+        "goals_scored": 21
+      }
+    },
+    {
+      "season_id": "2023-2024",
+      "competition_name": "Ligue 1",
+      "#_squads": 18,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Kylian Mbappé",
+        "goals_scored": 27
+      }
+    },
+    {
+      "season_id": "2022-2023",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Kylian Mbappé",
+        "goals_scored": 29
+      }
+    },
+    {
+      "season_id": "2021-2022",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Kylian Mbappé",
+        "goals_scored": 28
+      }
+    },
+    {
+      "season_id": "2020-2021",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Lille",
+      "top_scorer": {
+        "player": "Kylian Mbappé",
+        "goals_scored": 27
+      }
+    },
+    {
+      "season_id": "2019-2020",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": [
+          "Kylian Mbappé",
+          "Wissam Ben Yedder"
+        ],
+        "goals_scored": 18
+      }
+    },
+    {
+      "season_id": "2018-2019",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Kylian Mbappé",
+        "goals_scored": 33
+      }
+    },
+    {
+      "season_id": "2017-2018",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Edinson Cavani",
+        "goals_scored": 28
+      }
+    },
+    {
+      "season_id": "2016-2017",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Monaco",
+      "top_scorer": {
+        "player": "Edinson Cavani",
+        "goals_scored": 35
+      }
+    },
+    {
+      "season_id": "2015-2016",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Zlatan Ibrahimović",
+        "goals_scored": 38
+      }
+    },
+    {
+      "season_id": "2014-2015",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Alexandre Lacazette",
+        "goals_scored": 27
+      }
+    },
+    {
+      "season_id": "2013-2014",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Zlatan Ibrahimović",
+        "goals_scored": 26
+      }
+    },
+    {
+      "season_id": "2012-2013",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Paris Saint Germain",
+      "top_scorer": {
+        "player": "Zlatan Ibrahimović",
+        "goals_scored": 30
+      }
+    },
+    {
+      "season_id": "2011-2012",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Montpellier",
+      "top_scorer": {
+        "player": [
+          "Olivier Giroud",
+          "Nenê"
+        ],
+        "goals_scored": 21
+      }
+    },
+    {
+      "season_id": "2010-2011",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Lille",
+      "top_scorer": {
+        "player": "Moussa Sow",
+        "goals_scored": 25
+      }
+    },
+    {
+      "season_id": "2009-2010",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Marseille",
+      "top_scorer": {
+        "player": "Mamadou Niang",
+        "goals_scored": 18
+      }
+    },
+    {
+      "season_id": "2008-2009",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Bordeaux",
+      "top_scorer": {
+        "player": "André Pierre Gignac",
+        "goals_scored": 24
+      }
+    },
+    {
+      "season_id": "2007-2008",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Lyon",
+      "top_scorer": {
+        "player": "Karim Benzema",
+        "goals_scored": 20
+      }
+    },
+    {
+      "season_id": "2006-2007",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Lyon",
+      "top_scorer": {
+        "player": "Pauleta",
+        "goals_scored": 15
+      }
+    },
+    {
+      "season_id": "2005-2006",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Lyon",
+      "top_scorer": {
+        "player": "Pauleta",
+        "goals_scored": 21
+      }
+    },
+    {
+      "season_id": "2004-2005",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Lyon",
+      "top_scorer": {
+        "player": "Alexander Frei",
+        "goals_scored": 20
+      }
+    },
+    {
+      "season_id": "2003-2004",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Lyon",
+      "top_scorer": {
+        "player": "Djibril Cissé",
+        "goals_scored": 26
+      }
+    },
+    {
+      "season_id": "2002-2003",
+      "competition_name": "Ligue 1",
+      "#_squads": 20,
+      "champion": "Lyon",
+      "top_scorer": {
+        "player": "Shabani Nonda",
+        "goals_scored": 26
+      }
+    },
+    {
+      "season_id": "2001-2002",
+      "competition_name": "Division 1",
+      "#_squads": 18,
+      "champion": "Lyon",
+      "top_scorer": {
+        "player": [
+          "Pauleta",
+          "Djibril Cissé"
+        ],
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "2000-2001",
+      "competition_name": "Division 1",
+      "#_squads": 18,
+      "champion": "Nantes",
+      "top_scorer": {
+        "player": "Sonny Anderson",
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "1999-2000",
+      "competition_name": "Division 1",
+      "#_squads": 18,
+      "champion": "Monaco",
+      "top_scorer": {
+        "player": "Sonny Anderson",
+        "goals_scored": 23
+      }
+    },
+    {
+      "season_id": "1998-1999",
+      "competition_name": "Division 1",
+      "#_squads": 18,
+      "champion": "Bordeaux",
+      "top_scorer": {
+        "player": "Sylvain Wiltord",
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "1997-1998",
+      "competition_name": "Division 1",
+      "#_squads": 18,
+      "champion": "Lens",
+      "top_scorer": {
+        "player": "Stéphane Guivarc'h",
+        "goals_scored": 21
+      }
+    },
+    {
+      "season_id": "1996-1997",
+      "competition_name": "Division 1",
+      "#_squads": 20,
+      "champion": "Monaco",
+      "top_scorer": {
+        "player": "Stéphane Guivarc'h",
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "1995-1996",
+      "competition_name": "Division 1",
+      "#_squads": 20,
+      "champion": "Auxerre",
+      "top_scorer": {
+        "player": "Sonny Anderson",
+        "goals_scored": 21
+      }
+    }
+  ]
+}

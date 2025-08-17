@@ -1,0 +1,408 @@
+{
+  "data": [
+    {
+      "season_id": "2025-2026",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "",
+      "top_scorer": {
+        "player": "",
+        "goals_scored": null
+      }
+    },
+    {
+      "season_id": "2024-2025",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Harry Kane",
+        "goals_scored": 26
+      }
+    },
+    {
+      "season_id": "2023-2024",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayer Leverkusen",
+      "top_scorer": {
+        "player": "Harry Kane",
+        "goals_scored": 36
+      }
+    },
+    {
+      "season_id": "2022-2023",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": [
+          "Niclas Füllkrug",
+          "Christopher Nkunku"
+        ],
+        "goals_scored": 16
+      }
+    },
+    {
+      "season_id": "2021-2022",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Robert Lewandowski",
+        "goals_scored": 35
+      }
+    },
+    {
+      "season_id": "2020-2021",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Robert Lewandowski",
+        "goals_scored": 41
+      }
+    },
+    {
+      "season_id": "2019-2020",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Robert Lewandowski",
+        "goals_scored": 34
+      }
+    },
+    {
+      "season_id": "2018-2019",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Robert Lewandowski",
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "2017-2018",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Robert Lewandowski",
+        "goals_scored": 29
+      }
+    },
+    {
+      "season_id": "2016-2017",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Pierre Emerick Aubameyang",
+        "goals_scored": 31
+      }
+    },
+    {
+      "season_id": "2015-2016",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Robert Lewandowski",
+        "goals_scored": 30
+      }
+    },
+    {
+      "season_id": "2014-2015",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Alexander Meier",
+        "goals_scored": 19
+      }
+    },
+    {
+      "season_id": "2013-2014",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Robert Lewandowski",
+        "goals_scored": 20
+      }
+    },
+    {
+      "season_id": "2012-2013",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Stefan Kießling",
+        "goals_scored": 25
+      }
+    },
+    {
+      "season_id": "2011-2012",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Dortmund",
+      "top_scorer": {
+        "player": "Klaas Jan Huntelaar",
+        "goals_scored": 29
+      }
+    },
+    {
+      "season_id": "2010-2011",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Dortmund",
+      "top_scorer": {
+        "player": "Mario Gómez",
+        "goals_scored": 28
+      }
+    },
+    {
+      "season_id": "2009-2010",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Edin Džeko",
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "2008-2009",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Wolfsburg",
+      "top_scorer": {
+        "player": "Grafite",
+        "goals_scored": 28
+      }
+    },
+    {
+      "season_id": "2007-2008",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Luca Toni",
+        "goals_scored": 24
+      }
+    },
+    {
+      "season_id": "2006-2007",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Stuttgart",
+      "top_scorer": {
+        "player": "Theofanis Gekas",
+        "goals_scored": 20
+      }
+    },
+    {
+      "season_id": "2005-2006",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Miroslav Klose",
+        "goals_scored": 25
+      }
+    },
+    {
+      "season_id": "2004-2005",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Marek Mintál",
+        "goals_scored": 24
+      }
+    },
+    {
+      "season_id": "2003-2004",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Werder Bremen",
+      "top_scorer": {
+        "player": "Aílton Gonçalves",
+        "goals_scored": 28
+      }
+    },
+    {
+      "season_id": "2002-2003",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": [
+          "Giovane Élber",
+          "Thomas Christiansen"
+        ],
+        "goals_scored": 21
+      }
+    },
+    {
+      "season_id": "2001-2002",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Dortmund",
+      "top_scorer": {
+        "player": [
+          "Martin Max",
+          "Márcio Amoroso"
+        ],
+        "goals_scored": 18
+      }
+    },
+    {
+      "season_id": "2000-2001",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": [
+          "Sergej Barbarez",
+          "Ebbe Sand"
+        ],
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "1999-2000",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Martin Max",
+        "goals_scored": 19
+      }
+    },
+    {
+      "season_id": "1998-1999",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Michael Preetz",
+        "goals_scored": 23
+      }
+    },
+    {
+      "season_id": "1997-1998",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Kaiserslautern",
+      "top_scorer": {
+        "player": "Ulf Kirsten",
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "1996-1997",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Ulf Kirsten",
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "1995-1996",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Dortmund",
+      "top_scorer": {
+        "player": "Fredi Bobic",
+        "goals_scored": 17
+      }
+    },
+    {
+      "season_id": "1994-1995",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Dortmund",
+      "top_scorer": {
+        "player": [
+          "Heiko Herrlich",
+          "Mario Basler"
+        ],
+        "goals_scored": 20
+      }
+    },
+    {
+      "season_id": "1993-1994",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": [
+          "Stefan Kuntz",
+          "Tony Yeboah"
+        ],
+        "goals_scored": 18
+      }
+    },
+    {
+      "season_id": "1992-1993",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Werder Bremen",
+      "top_scorer": {
+        "player": [
+          "Ulf Kirsten",
+          "Tony Yeboah"
+        ],
+        "goals_scored": 20
+      }
+    },
+    {
+      "season_id": "1991-1992",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 20,
+      "champion": "Stuttgart",
+      "top_scorer": {
+        "player": "Fritz Walter",
+        "goals_scored": 22
+      }
+    },
+    {
+      "season_id": "1990-1991",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Kaiserslautern",
+      "top_scorer": {
+        "player": "Roland Wohlfarth",
+        "goals_scored": 21
+      }
+    },
+    {
+      "season_id": "1989-1990",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": "Jørn Andersen",
+        "goals_scored": 18
+      }
+    },
+    {
+      "season_id": "1988-1989",
+      "competition_name": "Fußball-Bundesliga",
+      "#_squads": 18,
+      "champion": "Bayern Munich",
+      "top_scorer": {
+        "player": [
+          "Roland Wohlfarth",
+          "Thomas Allofs"
+        ],
+        "goals_scored": 17
+      }
+    }
+  ]
+}

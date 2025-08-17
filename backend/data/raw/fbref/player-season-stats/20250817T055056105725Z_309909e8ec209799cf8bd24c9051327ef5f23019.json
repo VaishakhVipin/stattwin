@@ -1,0 +1,2250 @@
+{
+  "players": [
+    {
+      "meta_data": {
+        "player_id": "23c09e2b",
+        "player_name": "Will Wright",
+        "player_country_code": "ENG",
+        "age": 27
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 46,
+          "starts": "45",
+          "min": "4057",
+          "gls": "7",
+          "ast": "3",
+          "non_pen_gls": 6,
+          "pk_made": 1,
+          "pk_att": 2,
+          "yellow_cards": 6,
+          "red_cards": 0,
+          "per90_gls": 0.16,
+          "per90_ast": 0.07,
+          "per90_non_pen_gls": 0.13
+        },
+        "shooting": {
+          "sh": 38,
+          "sot": 15,
+          "pct_sot": 39.5,
+          "per90_sh": 0.84,
+          "per90_sot": 0.33,
+          "gls_per_sh": 0.16,
+          "gls_per_sot": 0.4,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 88.0,
+          "pct_squad_min": 98.0,
+          "avg_min_starter": 90.0,
+          "subs": 1,
+          "avg_min_sub": 7.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 71,
+          "team_gls_ag_on_pitch": 62,
+          "per90_plus_minus": 0.2,
+          "per90_on_off": 1.28
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 24,
+          "fls_drawn": 29,
+          "offside": 0,
+          "crosses": 223,
+          "int": 44,
+          "tkl_won": 37,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 2
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "3eeda7dd",
+        "player_name": "Gavin Kilkenny",
+        "player_country_code": "IRL",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 42,
+          "starts": "39",
+          "min": "3313",
+          "gls": "1",
+          "ast": "1",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.03,
+          "per90_ast": 0.03,
+          "per90_non_pen_gls": 0.03
+        },
+        "shooting": {
+          "sh": 38,
+          "sot": 7,
+          "pct_sot": 18.4,
+          "per90_sh": 1.03,
+          "per90_sot": 0.19,
+          "gls_per_sh": 0.03,
+          "gls_per_sot": 0.14,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 79.0,
+          "pct_squad_min": 80.0,
+          "avg_min_starter": 83.0,
+          "subs": 3,
+          "avg_min_sub": 22.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 55,
+          "team_gls_ag_on_pitch": 46,
+          "per90_plus_minus": 0.24,
+          "per90_on_off": 0.35
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 33,
+          "fls_drawn": 30,
+          "offside": 2,
+          "crosses": 47,
+          "int": 34,
+          "tkl_won": 82,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "83f19532",
+        "player_name": "Harry Smith",
+        "player_country_code": "ENG",
+        "age": 29
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 39,
+          "starts": "37",
+          "min": "3206",
+          "gls": "15",
+          "ast": "3",
+          "non_pen_gls": 15,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 11,
+          "red_cards": 1,
+          "per90_gls": 0.42,
+          "per90_ast": 0.08,
+          "per90_non_pen_gls": 0.42
+        },
+        "shooting": {
+          "sh": 94,
+          "sot": 31,
+          "pct_sot": 33.0,
+          "per90_sh": 2.64,
+          "per90_sot": 0.87,
+          "gls_per_sh": 0.16,
+          "gls_per_sot": 0.48,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 82.0,
+          "pct_squad_min": 77.4,
+          "avg_min_starter": 85.0,
+          "subs": 2,
+          "avg_min_sub": 37.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 56,
+          "team_gls_ag_on_pitch": 51,
+          "per90_plus_minus": 0.14,
+          "per90_on_off": -0.15
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 66,
+          "fls_drawn": 65,
+          "offside": 35,
+          "crosses": 10,
+          "int": 6,
+          "tkl_won": 5,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 1
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "af5513e1",
+        "player_name": "Joel Cotterill",
+        "player_country_code": "WAL",
+        "age": 19
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 41,
+          "starts": "30",
+          "min": "2629",
+          "gls": "3",
+          "ast": "2",
+          "non_pen_gls": 3,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.1,
+          "per90_ast": 0.07,
+          "per90_non_pen_gls": 0.1
+        },
+        "shooting": {
+          "sh": 37,
+          "sot": 7,
+          "pct_sot": 18.9,
+          "per90_sh": 1.27,
+          "per90_sot": 0.24,
+          "gls_per_sh": 0.08,
+          "gls_per_sot": 0.43,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 64.0,
+          "pct_squad_min": 63.5,
+          "avg_min_starter": 81.0,
+          "subs": 11,
+          "avg_min_sub": 18.0,
+          "unused_sub": 2,
+          "team_gls_on_pitch": 44,
+          "team_gls_ag_on_pitch": 45,
+          "per90_plus_minus": -0.03,
+          "per90_on_off": -0.57
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 11,
+          "fls_drawn": 14,
+          "offside": 0,
+          "crosses": 43,
+          "int": 22,
+          "tkl_won": 27,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "0c7914fe",
+        "player_name": "Tunmise Sobowale",
+        "player_country_code": "IRL",
+        "age": 25
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF,MF",
+          "matches_played": 37,
+          "starts": "27",
+          "min": "2549",
+          "gls": "0",
+          "ast": "2",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.07,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 11,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.39,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 69.0,
+          "pct_squad_min": 61.6,
+          "avg_min_starter": 87.0,
+          "subs": 10,
+          "avg_min_sub": 20.0,
+          "unused_sub": 7,
+          "team_gls_on_pitch": 42,
+          "team_gls_ag_on_pitch": 38,
+          "per90_plus_minus": 0.14,
+          "per90_on_off": -0.09
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 18,
+          "fls_drawn": 32,
+          "offside": 1,
+          "crosses": 76,
+          "int": 34,
+          "tkl_won": 43,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "172e9148",
+        "player_name": "Ollie Clarke",
+        "player_country_code": "ENG",
+        "age": 32
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,DF",
+          "matches_played": 30,
+          "starts": "26",
+          "min": "2088",
+          "gls": "4",
+          "ast": "3",
+          "non_pen_gls": 4,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 12,
+          "red_cards": 0,
+          "per90_gls": 0.17,
+          "per90_ast": 0.13,
+          "per90_non_pen_gls": 0.17
+        },
+        "shooting": {
+          "sh": 53,
+          "sot": 12,
+          "pct_sot": 22.6,
+          "per90_sh": 2.28,
+          "per90_sot": 0.52,
+          "gls_per_sh": 0.08,
+          "gls_per_sot": 0.33,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 70.0,
+          "pct_squad_min": 50.4,
+          "avg_min_starter": 75.0,
+          "subs": 4,
+          "avg_min_sub": 34.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 33,
+          "team_gls_ag_on_pitch": 27,
+          "per90_plus_minus": 0.26,
+          "per90_on_off": 0.17
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 41,
+          "fls_drawn": 26,
+          "offside": 0,
+          "crosses": 36,
+          "int": 21,
+          "tkl_won": 36,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "902504f3",
+        "player_name": "Miguel Freckleton",
+        "player_country_code": "ENG",
+        "age": 21
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 28,
+          "starts": "25",
+          "min": "2367",
+          "gls": "1",
+          "ast": "1",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.04,
+          "per90_ast": 0.04,
+          "per90_non_pen_gls": 0.04
+        },
+        "shooting": {
+          "sh": 7,
+          "sot": 1,
+          "pct_sot": 14.3,
+          "per90_sh": 0.27,
+          "per90_sot": 0.04,
+          "gls_per_sh": 0.14,
+          "gls_per_sot": 1.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 85.0,
+          "pct_squad_min": 57.2,
+          "avg_min_starter": 90.0,
+          "subs": 3,
+          "avg_min_sub": 39.0,
+          "unused_sub": 1,
+          "team_gls_on_pitch": 40,
+          "team_gls_ag_on_pitch": 33,
+          "per90_plus_minus": 0.27,
+          "per90_on_off": 0.22
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 16,
+          "fls_drawn": 13,
+          "offside": 0,
+          "crosses": 25,
+          "int": 29,
+          "tkl_won": 26,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "43a62ad4",
+        "player_name": "Kabongo Tshimanga",
+        "player_country_code": "ENG",
+        "age": 26
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW,MF",
+          "matches_played": 39,
+          "starts": "25",
+          "min": "2281",
+          "gls": "11",
+          "ast": "3",
+          "non_pen_gls": 5,
+          "pk_made": 6,
+          "pk_att": 7,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "per90_gls": 0.43,
+          "per90_ast": 0.12,
+          "per90_non_pen_gls": 0.2
+        },
+        "shooting": {
+          "sh": 44,
+          "sot": 25,
+          "pct_sot": 56.8,
+          "per90_sh": 1.74,
+          "per90_sot": 0.99,
+          "gls_per_sh": 0.11,
+          "gls_per_sot": 0.2,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 58.0,
+          "pct_squad_min": 55.1,
+          "avg_min_starter": 78.0,
+          "subs": 14,
+          "avg_min_sub": 23.0,
+          "unused_sub": 3,
+          "team_gls_on_pitch": 45,
+          "team_gls_ag_on_pitch": 38,
+          "per90_plus_minus": 0.28,
+          "per90_on_off": 0.23
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 36,
+          "fls_drawn": 30,
+          "offside": 7,
+          "crosses": 10,
+          "int": 3,
+          "tkl_won": 15,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "76bca47e",
+        "player_name": "Nnamdi Ofoborh",
+        "player_country_code": "NGA",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 37,
+          "starts": "23",
+          "min": "1966",
+          "gls": "2",
+          "ast": "1",
+          "non_pen_gls": 2,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.09,
+          "per90_ast": 0.05,
+          "per90_non_pen_gls": 0.09
+        },
+        "shooting": {
+          "sh": 19,
+          "sot": 6,
+          "pct_sot": 31.6,
+          "per90_sh": 0.87,
+          "per90_sot": 0.27,
+          "gls_per_sh": 0.11,
+          "gls_per_sot": 0.33,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 53.0,
+          "pct_squad_min": 47.5,
+          "avg_min_starter": 74.0,
+          "subs": 14,
+          "avg_min_sub": 19.0,
+          "unused_sub": 8,
+          "team_gls_on_pitch": 30,
+          "team_gls_ag_on_pitch": 27,
+          "per90_plus_minus": 0.14,
+          "per90_on_off": -0.07
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 26,
+          "fls_drawn": 34,
+          "offside": 1,
+          "crosses": 16,
+          "int": 16,
+          "tkl_won": 42,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "8c25d35a",
+        "player_name": "George Cox",
+        "player_country_code": "ENG",
+        "age": 26
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,DF",
+          "matches_played": 26,
+          "starts": "21",
+          "min": "1645",
+          "gls": "2",
+          "ast": "4",
+          "non_pen_gls": 1,
+          "pk_made": 1,
+          "pk_att": 1,
+          "yellow_cards": 5,
+          "red_cards": 0,
+          "per90_gls": 0.11,
+          "per90_ast": 0.22,
+          "per90_non_pen_gls": 0.05
+        },
+        "shooting": {
+          "sh": 32,
+          "sot": 5,
+          "pct_sot": 15.6,
+          "per90_sh": 1.75,
+          "per90_sot": 0.27,
+          "gls_per_sh": 0.03,
+          "gls_per_sot": 0.2,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 63.0,
+          "pct_squad_min": 39.7,
+          "avg_min_starter": 71.0,
+          "subs": 5,
+          "avg_min_sub": 32.0,
+          "unused_sub": 3,
+          "team_gls_on_pitch": 29,
+          "team_gls_ag_on_pitch": 26,
+          "per90_plus_minus": 0.16,
+          "per90_on_off": -0.02
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 23,
+          "fls_drawn": 18,
+          "offside": 1,
+          "crosses": 149,
+          "int": 27,
+          "tkl_won": 31,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "aa3745bd",
+        "player_name": "Paul Glatzel",
+        "player_country_code": "ENG",
+        "age": 23
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW,MF",
+          "matches_played": 39,
+          "starts": "20",
+          "min": "1923",
+          "gls": "3",
+          "ast": "5",
+          "non_pen_gls": 3,
+          "pk_made": 0,
+          "pk_att": 1,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.14,
+          "per90_ast": 0.23,
+          "per90_non_pen_gls": 0.14
+        },
+        "shooting": {
+          "sh": 47,
+          "sot": 10,
+          "pct_sot": 21.3,
+          "per90_sh": 2.2,
+          "per90_sot": 0.47,
+          "gls_per_sh": 0.06,
+          "gls_per_sot": 0.3,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 49.0,
+          "pct_squad_min": 46.4,
+          "avg_min_starter": 75.0,
+          "subs": 19,
+          "avg_min_sub": 22.0,
+          "unused_sub": 5,
+          "team_gls_on_pitch": 39,
+          "team_gls_ag_on_pitch": 26,
+          "per90_plus_minus": 0.61,
+          "per90_on_off": 0.81
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 40,
+          "fls_drawn": 43,
+          "offside": 4,
+          "crosses": 21,
+          "int": 14,
+          "tkl_won": 21,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "5564eb4f",
+        "player_name": "Daniel Butterworth",
+        "player_country_code": "ENG",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,FW",
+          "matches_played": 34,
+          "starts": "20",
+          "min": "1897",
+          "gls": "5",
+          "ast": "2",
+          "non_pen_gls": 5,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "per90_gls": 0.24,
+          "per90_ast": 0.09,
+          "per90_non_pen_gls": 0.24
+        },
+        "shooting": {
+          "sh": 42,
+          "sot": 11,
+          "pct_sot": 26.2,
+          "per90_sh": 1.99,
+          "per90_sot": 0.52,
+          "gls_per_sh": 0.12,
+          "gls_per_sot": 0.45,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 56.0,
+          "pct_squad_min": 45.8,
+          "avg_min_starter": 77.0,
+          "subs": 14,
+          "avg_min_sub": 26.0,
+          "unused_sub": 5,
+          "team_gls_on_pitch": 36,
+          "team_gls_ag_on_pitch": 29,
+          "per90_plus_minus": 0.33,
+          "per90_on_off": 0.29
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 15,
+          "fls_drawn": 13,
+          "offside": 2,
+          "crosses": 43,
+          "int": 6,
+          "tkl_won": 9,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "c4d5db08",
+        "player_name": "Jack Bycroft",
+        "player_country_code": "ENG",
+        "age": 22
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 21,
+          "starts": "20",
+          "min": "1820",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 87.0,
+          "pct_squad_min": 44.0,
+          "avg_min_starter": 90.0,
+          "subs": 1,
+          "avg_min_sub": 20.0,
+          "unused_sub": 24,
+          "team_gls_on_pitch": 33,
+          "team_gls_ag_on_pitch": 31,
+          "per90_plus_minus": 0.1,
+          "per90_on_off": -0.13
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 3,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "62b31d73",
+        "player_name": "Ryan Delaney",
+        "player_country_code": "IRL",
+        "age": 27
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 21,
+          "starts": "19",
+          "min": "1655",
+          "gls": "1",
+          "ast": "1",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.05,
+          "per90_ast": 0.05,
+          "per90_non_pen_gls": 0.05
+        },
+        "shooting": {
+          "sh": 7,
+          "sot": 4,
+          "pct_sot": 57.1,
+          "per90_sh": 0.38,
+          "per90_sot": 0.22,
+          "gls_per_sh": 0.14,
+          "gls_per_sot": 0.25,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 79.0,
+          "pct_squad_min": 40.0,
+          "avg_min_starter": 84.0,
+          "subs": 2,
+          "avg_min_sub": 32.0,
+          "unused_sub": 3,
+          "team_gls_on_pitch": 33,
+          "team_gls_ag_on_pitch": 29,
+          "per90_plus_minus": 0.22,
+          "per90_on_off": 0.07
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 21,
+          "fls_drawn": 6,
+          "offside": 0,
+          "crosses": 6,
+          "int": 14,
+          "tkl_won": 20,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "7155295e",
+        "player_name": "Aaron Drinan",
+        "player_country_code": "IRL",
+        "age": 26
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW,MF",
+          "matches_played": 28,
+          "starts": "16",
+          "min": "1697",
+          "gls": "3",
+          "ast": "1",
+          "non_pen_gls": 3,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.16,
+          "per90_ast": 0.05,
+          "per90_non_pen_gls": 0.16
+        },
+        "shooting": {
+          "sh": 32,
+          "sot": 10,
+          "pct_sot": 31.3,
+          "per90_sh": 1.7,
+          "per90_sot": 0.53,
+          "gls_per_sh": 0.09,
+          "gls_per_sot": 0.3,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 61.0,
+          "pct_squad_min": 41.0,
+          "avg_min_starter": 83.0,
+          "subs": 12,
+          "avg_min_sub": 31.0,
+          "unused_sub": 1,
+          "team_gls_on_pitch": 22,
+          "team_gls_ag_on_pitch": 26,
+          "per90_plus_minus": -0.21,
+          "per90_on_off": -0.65
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 6,
+          "fls_drawn": 13,
+          "offside": 1,
+          "crosses": 39,
+          "int": 5,
+          "tkl_won": 15,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "8a3fcbf2",
+        "player_name": "Tom Nichols",
+        "player_country_code": "ENG",
+        "age": 30
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 20,
+          "starts": "16",
+          "min": "1295",
+          "gls": "2",
+          "ast": "2",
+          "non_pen_gls": 2,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.14,
+          "per90_ast": 0.14,
+          "per90_non_pen_gls": 0.14
+        },
+        "shooting": {
+          "sh": 17,
+          "sot": 8,
+          "pct_sot": 47.1,
+          "per90_sh": 1.18,
+          "per90_sot": 0.56,
+          "gls_per_sh": 0.12,
+          "gls_per_sot": 0.25,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 65.0,
+          "pct_squad_min": 31.3,
+          "avg_min_starter": 74.0,
+          "subs": 4,
+          "avg_min_sub": 28.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 30,
+          "team_gls_ag_on_pitch": 16,
+          "per90_plus_minus": 0.97,
+          "per90_on_off": 1.16
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 22,
+          "fls_drawn": 17,
+          "offside": 1,
+          "crosses": 7,
+          "int": 11,
+          "tkl_won": 24,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "7b5cb32e",
+        "player_name": "Connor Ripley",
+        "player_country_code": "ENG",
+        "age": 31
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 14,
+          "starts": "14",
+          "min": "1260",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 1,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.07,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 90.0,
+          "pct_squad_min": 30.4,
+          "avg_min_starter": 90.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 21,
+          "team_gls_ag_on_pitch": 16,
+          "per90_plus_minus": 0.36,
+          "per90_on_off": 0.26
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 1,
+          "fls_drawn": 6,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "b9a2bc83",
+        "player_name": "Joel McGregor",
+        "player_country_code": "WAL",
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,DF",
+          "matches_played": 19,
+          "starts": "14",
+          "min": "1178",
+          "gls": "1",
+          "ast": "1",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 4,
+          "red_cards": 0,
+          "per90_gls": 0.08,
+          "per90_ast": 0.08,
+          "per90_non_pen_gls": 0.08
+        },
+        "shooting": {
+          "sh": 6,
+          "sot": 1,
+          "pct_sot": 16.7,
+          "per90_sh": 0.46,
+          "per90_sot": 0.08,
+          "gls_per_sh": 0.17,
+          "gls_per_sot": 1.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 62.0,
+          "pct_squad_min": 28.5,
+          "avg_min_starter": 72.0,
+          "subs": 5,
+          "avg_min_sub": 34.0,
+          "unused_sub": 2,
+          "team_gls_on_pitch": 18,
+          "team_gls_ag_on_pitch": 23,
+          "per90_plus_minus": -0.38,
+          "per90_on_off": -0.78
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 22,
+          "fls_drawn": 15,
+          "offside": 0,
+          "crosses": 15,
+          "int": 19,
+          "tkl_won": 29,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "f670e314",
+        "player_name": "Daniel Barden",
+        "player_country_code": "ENG",
+        "age": 23
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 12,
+          "starts": "12",
+          "min": "1060",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 88.0,
+          "pct_squad_min": 25.6,
+          "avg_min_starter": 88.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 15,
+          "team_gls_on_pitch": 17,
+          "team_gls_ag_on_pitch": 16,
+          "per90_plus_minus": 0.08,
+          "per90_on_off": -0.12
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 1,
+          "fls_drawn": 5,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "ea3c98dc",
+        "player_name": "Billy Kirkman",
+        "player_country_code": "ENG",
+        "age": 20
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,DF",
+          "matches_played": 14,
+          "starts": "11",
+          "min": "934",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 5,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.48,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 67.0,
+          "pct_squad_min": 22.6,
+          "avg_min_starter": 79.0,
+          "subs": 3,
+          "avg_min_sub": 23.0,
+          "unused_sub": 5,
+          "team_gls_on_pitch": 14,
+          "team_gls_ag_on_pitch": 11,
+          "per90_plus_minus": 0.29,
+          "per90_on_off": 0.15
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 11,
+          "fls_drawn": 8,
+          "offside": 0,
+          "crosses": 23,
+          "int": 17,
+          "tkl_won": 22,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "1264ee68",
+        "player_name": "Grant Hall",
+        "player_country_code": "ENG",
+        "age": 32
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 14,
+          "starts": "11",
+          "min": "788",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 1,
+          "red_cards": 1,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 3,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.34,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 56.0,
+          "pct_squad_min": 19.0,
+          "avg_min_starter": 69.0,
+          "subs": 3,
+          "avg_min_sub": 10.0,
+          "unused_sub": 1,
+          "team_gls_on_pitch": 8,
+          "team_gls_ag_on_pitch": 17,
+          "per90_plus_minus": -1.03,
+          "per90_on_off": -1.48
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 5,
+          "fls_drawn": 2,
+          "offside": 0,
+          "crosses": 0,
+          "int": 4,
+          "tkl_won": 3,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "a33ce8e2",
+        "player_name": "Jake Cain",
+        "player_country_code": "ENG",
+        "age": 22
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF,MF",
+          "matches_played": 19,
+          "starts": "9",
+          "min": "787",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 5,
+          "sot": 1,
+          "pct_sot": 20.0,
+          "per90_sh": 0.57,
+          "per90_sot": 0.11,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 41.0,
+          "pct_squad_min": 19.0,
+          "avg_min_starter": 77.0,
+          "subs": 10,
+          "avg_min_sub": 9.0,
+          "unused_sub": 12,
+          "team_gls_on_pitch": 13,
+          "team_gls_ag_on_pitch": 8,
+          "per90_plus_minus": 0.57,
+          "per90_on_off": 0.49
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 7,
+          "fls_drawn": 7,
+          "offside": 0,
+          "crosses": 31,
+          "int": 7,
+          "tkl_won": 12,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "4fb3b8e4",
+        "player_name": "Jeff King",
+        "player_country_code": "ENG",
+        "age": 28
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,DF",
+          "matches_played": 8,
+          "starts": "8",
+          "min": "621",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 6,
+          "sot": 2,
+          "pct_sot": 33.3,
+          "per90_sh": 0.87,
+          "per90_sot": 0.29,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 78.0,
+          "pct_squad_min": 15.0,
+          "avg_min_starter": 78.0,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 6,
+          "team_gls_ag_on_pitch": 11,
+          "per90_plus_minus": -0.72,
+          "per90_on_off": -1.06
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 5,
+          "fls_drawn": 11,
+          "offside": 2,
+          "crosses": 47,
+          "int": 2,
+          "tkl_won": 8,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "b25ab409",
+        "player_name": "Rosaire Longelo-Mbule",
+        "player_country_code": "ENG",
+        "age": 24
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF,MF",
+          "matches_played": 16,
+          "starts": "6",
+          "min": "701",
+          "gls": "1",
+          "ast": "0",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "per90_gls": 0.13,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.13
+        },
+        "shooting": {
+          "sh": 3,
+          "sot": 1,
+          "pct_sot": 33.3,
+          "per90_sh": 0.39,
+          "per90_sot": 0.13,
+          "gls_per_sh": 0.33,
+          "gls_per_sot": 1.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 44.0,
+          "pct_squad_min": 16.9,
+          "avg_min_starter": 78.0,
+          "subs": 10,
+          "avg_min_sub": 23.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 8,
+          "team_gls_ag_on_pitch": 13,
+          "per90_plus_minus": -0.64,
+          "per90_on_off": -0.98
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 6,
+          "fls_drawn": 11,
+          "offside": 0,
+          "crosses": 30,
+          "int": 5,
+          "tkl_won": 11,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "c2b7d53e",
+        "player_name": "Joe Westley",
+        "player_country_code": "IRQ",
+        "age": 19
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF,FW",
+          "matches_played": 17,
+          "starts": "3",
+          "min": "503",
+          "gls": "3",
+          "ast": "0",
+          "non_pen_gls": 3,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.54,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.54
+        },
+        "shooting": {
+          "sh": 13,
+          "sot": 6,
+          "pct_sot": 46.2,
+          "per90_sh": 2.33,
+          "per90_sot": 1.07,
+          "gls_per_sh": 0.23,
+          "gls_per_sot": 0.5,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 30.0,
+          "pct_squad_min": 12.1,
+          "avg_min_starter": 71.0,
+          "subs": 14,
+          "avg_min_sub": 21.0,
+          "unused_sub": 2,
+          "team_gls_on_pitch": 13,
+          "team_gls_ag_on_pitch": 8,
+          "per90_plus_minus": 0.89,
+          "per90_on_off": 0.82
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 11,
+          "fls_drawn": 2,
+          "offside": 1,
+          "crosses": 0,
+          "int": 3,
+          "tkl_won": 6,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "ed2a6e16",
+        "player_name": "Botan Ameen",
+        "player_country_code": "ENG",
+        "age": 17
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 14,
+          "starts": "3",
+          "min": "485",
+          "gls": "1",
+          "ast": "2",
+          "non_pen_gls": 1,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.19,
+          "per90_ast": 0.37,
+          "per90_non_pen_gls": 0.19
+        },
+        "shooting": {
+          "sh": 8,
+          "sot": 6,
+          "pct_sot": 75.0,
+          "per90_sh": 1.48,
+          "per90_sot": 1.11,
+          "gls_per_sh": 0.13,
+          "gls_per_sot": 0.17,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 35.0,
+          "pct_squad_min": 11.7,
+          "avg_min_starter": 81.0,
+          "subs": 11,
+          "avg_min_sub": 22.0,
+          "unused_sub": 5,
+          "team_gls_on_pitch": 12,
+          "team_gls_ag_on_pitch": 8,
+          "per90_plus_minus": 0.74,
+          "per90_on_off": 0.64
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 7,
+          "fls_drawn": 6,
+          "offside": 0,
+          "crosses": 16,
+          "int": 2,
+          "tkl_won": 6,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "dfd75054",
+        "player_name": "Harrison Minturn",
+        "player_country_code": "ENG",
+        "age": 20
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 8,
+          "starts": "3",
+          "min": "417",
+          "gls": "0",
+          "ast": "1",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.22,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 2,
+          "sot": 1,
+          "pct_sot": 50.0,
+          "per90_sh": 0.43,
+          "per90_sot": 0.22,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": 0.0,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 52.0,
+          "pct_squad_min": 10.1,
+          "avg_min_starter": 79.0,
+          "subs": 5,
+          "avg_min_sub": 36.0,
+          "unused_sub": 9,
+          "team_gls_on_pitch": 6,
+          "team_gls_ag_on_pitch": 5,
+          "per90_plus_minus": 0.22,
+          "per90_on_off": 0.05
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 3,
+          "fls_drawn": 5,
+          "offside": 0,
+          "crosses": 0,
+          "int": 7,
+          "tkl_won": 7,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "1969e0c5",
+        "player_name": "Jaxon Brown",
+        "player_country_code": "ENG",
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 3,
+          "starts": "2",
+          "min": "148",
+          "gls": "0",
+          "ast": "1",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.61,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 1,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 0.61,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 49.0,
+          "pct_squad_min": 3.6,
+          "avg_min_starter": 61.0,
+          "subs": 1,
+          "avg_min_sub": 27.0,
+          "unused_sub": 1,
+          "team_gls_on_pitch": 3,
+          "team_gls_ag_on_pitch": 2,
+          "per90_plus_minus": 0.61,
+          "per90_on_off": 0.45
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 1,
+          "fls_drawn": 6,
+          "offside": 0,
+          "crosses": 1,
+          "int": 0,
+          "tkl_won": 1,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "33cbe5b9",
+        "player_name": "Sean McGurk",
+        "player_country_code": "ENG",
+        "age": 21
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 8,
+          "starts": "1",
+          "min": "142",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 3,
+          "sot": 0,
+          "pct_sot": 0.0,
+          "per90_sh": 1.9,
+          "per90_sot": 0.0,
+          "gls_per_sh": 0.0,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 18.0,
+          "pct_squad_min": 3.4,
+          "avg_min_starter": 45.0,
+          "subs": 7,
+          "avg_min_sub": 14.0,
+          "unused_sub": 3,
+          "team_gls_on_pitch": 2,
+          "team_gls_ag_on_pitch": 4,
+          "per90_plus_minus": -1.27,
+          "per90_on_off": -1.49
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 1,
+          "offside": 0,
+          "crosses": 12,
+          "int": 1,
+          "tkl_won": 1,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "dd5e1f77",
+        "player_name": "Dylan Mitchell",
+        "player_country_code": null,
+        "age": 18
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 2,
+          "starts": "0",
+          "min": "10",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 5.0,
+          "pct_squad_min": 0.2,
+          "avg_min_starter": null,
+          "subs": 2,
+          "avg_min_sub": 5.0,
+          "unused_sub": 4,
+          "team_gls_on_pitch": 0,
+          "team_gls_ag_on_pitch": 0,
+          "per90_plus_minus": 0.0,
+          "per90_on_off": -0.17
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 1,
+          "int": 1,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "b81e2999",
+        "player_name": "George Alston",
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "FW",
+          "matches_played": 1,
+          "starts": "0",
+          "min": "8",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 8.0,
+          "pct_squad_min": 0.2,
+          "avg_min_starter": null,
+          "subs": 1,
+          "avg_min_sub": 8.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 0,
+          "team_gls_ag_on_pitch": 0,
+          "per90_plus_minus": 0.0,
+          "per90_on_off": -0.17
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "4246a325",
+        "player_name": "Owen Foye",
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "MF",
+          "matches_played": 1,
+          "starts": "0",
+          "min": "1",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 1.0,
+          "pct_squad_min": 0.0,
+          "avg_min_starter": null,
+          "subs": 1,
+          "avg_min_sub": 1.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 0,
+          "team_gls_ag_on_pitch": 0,
+          "per90_plus_minus": 0.0,
+          "per90_on_off": -0.17
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "cb2469cb",
+        "player_name": "Sonny Hartman",
+        "player_country_code": null,
+        "age": 18
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 1,
+          "starts": "0",
+          "min": "1",
+          "gls": "0",
+          "ast": "0",
+          "non_pen_gls": 0,
+          "pk_made": 0,
+          "pk_att": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "per90_gls": 0.0,
+          "per90_ast": 0.0,
+          "per90_non_pen_gls": 0.0
+        },
+        "shooting": {
+          "sh": 0,
+          "sot": 0,
+          "pct_sot": null,
+          "per90_sh": 0.0,
+          "per90_sot": 0.0,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": 1.0,
+          "pct_squad_min": 0.0,
+          "avg_min_starter": null,
+          "subs": 1,
+          "avg_min_sub": 1.0,
+          "unused_sub": 0,
+          "team_gls_on_pitch": 0,
+          "team_gls_ag_on_pitch": 0,
+          "per90_plus_minus": 0.0,
+          "per90_on_off": -0.17
+        },
+        "misc": {
+          "second_yellow_cards": 0,
+          "fls_com": 0,
+          "fls_drawn": 0,
+          "offside": 0,
+          "crosses": 0,
+          "int": 0,
+          "tkl_won": 0,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": 0
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "DF",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 2,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 5,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": null,
+        "player_name": null,
+        "player_country_code": null,
+        "age": null
+      },
+      "stats": {
+        "stats": {
+          "positions": "GK",
+          "matches_played": 0,
+          "starts": "0",
+          "min": "",
+          "gls": "",
+          "ast": "",
+          "non_pen_gls": null,
+          "pk_made": null,
+          "pk_att": null,
+          "yellow_cards": null,
+          "red_cards": null,
+          "per90_gls": null,
+          "per90_ast": null,
+          "per90_non_pen_gls": null
+        },
+        "shooting": {
+          "sh": null,
+          "sot": null,
+          "pct_sot": null,
+          "per90_sh": null,
+          "per90_sot": null,
+          "gls_per_sh": null,
+          "gls_per_sot": null,
+          "avg_sh_dist": null
+        },
+        "playingtime": {
+          "min_per_match_played": null,
+          "pct_squad_min": null,
+          "avg_min_starter": null,
+          "subs": 0,
+          "avg_min_sub": null,
+          "unused_sub": 1,
+          "team_gls_on_pitch": null,
+          "team_gls_ag_on_pitch": null,
+          "per90_plus_minus": null,
+          "per90_on_off": null
+        },
+        "misc": {
+          "second_yellow_cards": null,
+          "fls_com": null,
+          "fls_drawn": null,
+          "offside": null,
+          "crosses": null,
+          "int": null,
+          "tkl_won": null,
+          "pk_won": null,
+          "pk_conceded": null,
+          "og": null
+        }
+      }
+    }
+  ],
+  "keepers": [
+    {
+      "meta_data": {
+        "player_id": "c4d5db08",
+        "player_name": "Jack Bycroft",
+        "player_country_code": "ENG",
+        "age": 22
+      },
+      "stats": {
+        "keepers": {
+          "positions": "GK",
+          "matches_played": 21,
+          "starts": 20,
+          "min": 1820,
+          "gls_ag": "31",
+          "per90_gls_ag": "1.53",
+          "sot_ag": "87",
+          "saves": "56",
+          "save_pct": "64.4",
+          "clean_sheets": "5",
+          "clean_sheet_pct": "25.0",
+          "pk_att_ag": "0",
+          "pk_made_ag": "0",
+          "pk_saved": "0",
+          "pk_miss_ag": "0",
+          "pk_save_pct": ""
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "7b5cb32e",
+        "player_name": "Connor Ripley",
+        "player_country_code": "ENG",
+        "age": 31
+      },
+      "stats": {
+        "keepers": {
+          "positions": "GK",
+          "matches_played": 14,
+          "starts": 14,
+          "min": 1260,
+          "gls_ag": "16",
+          "per90_gls_ag": "1.14",
+          "sot_ag": "50",
+          "saves": "32",
+          "save_pct": "68.0",
+          "clean_sheets": "5",
+          "clean_sheet_pct": "35.7",
+          "pk_att_ag": "0",
+          "pk_made_ag": "0",
+          "pk_saved": "0",
+          "pk_miss_ag": "0",
+          "pk_save_pct": ""
+        }
+      }
+    },
+    {
+      "meta_data": {
+        "player_id": "f670e314",
+        "player_name": "Daniel Barden",
+        "player_country_code": "WAL",
+        "age": 23
+      },
+      "stats": {
+        "keepers": {
+          "positions": "GK",
+          "matches_played": 12,
+          "starts": 12,
+          "min": 1060,
+          "gls_ag": "16",
+          "per90_gls_ag": "1.36",
+          "sot_ag": "30",
+          "saves": "18",
+          "save_pct": "60.0",
+          "clean_sheets": "1",
+          "clean_sheet_pct": "8.3",
+          "pk_att_ag": "4",
+          "pk_made_ag": "4",
+          "pk_saved": "0",
+          "pk_miss_ag": "0",
+          "pk_save_pct": "0.0"
+        }
+      }
+    }
+  ]
+}

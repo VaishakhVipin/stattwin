@@ -20,14 +20,20 @@ logger = logging.getLogger(__name__)
 
 
 class FBRefRateLimiter:
-    """Rate limiter for FBRef API calls - 1 request every 3 seconds."""
+    """Rate limiter for FBRef API calls - default 1 request every 3 seconds (configurable)."""
     
-    def __init__(self):
+    def __init__(self, min_interval: Optional[float] = None):
         self.last_call_time = None
-        self.min_interval = 3  # 3 seconds between calls
+        if min_interval is not None:
+            self.min_interval = float(min_interval)
+        else:
+            try:
+                self.min_interval = float(os.getenv("FBREF_RATE_LIMIT_SECONDS", "3"))
+            except Exception:
+                self.min_interval = 3.0
     
     def wait_if_needed(self):
-        """Wait if we need to respect the 3-second interval."""
+        """Wait if we need to respect the interval."""
         if self.last_call_time is not None:
             elapsed = (datetime.now() - self.last_call_time).total_seconds()
             if elapsed < self.min_interval:
@@ -41,18 +47,48 @@ class FBRefRateLimiter:
 class FBRefClient:
     """Client for interacting with the FBRef API."""
     
-    def __init__(self, api_key: Optional[str] = None):
+    def __init__(
+        self,
+        api_key: Optional[str] = None,
+        *,
+        rate_limit_seconds: Optional[float] = None,
+        timeout_seconds: Optional[float] = None,
+        retry_total: Optional[int] = None,
+        retry_backoff: Optional[float] = None,
+        enumeration_order: Optional[str] = None,
+        enumeration_fallback_season_id: Optional[str] = None,
+    ):
         self.api_key = api_key
         self.base_url = settings.FBREF_API_BASE_URL
-        self.rate_limiter = FBRefRateLimiter()
+        self.enumeration_order = enumeration_order
+        self.enumeration_fallback_season_id = enumeration_fallback_season_id
+        self.rate_limiter = FBRefRateLimiter(min_interval=rate_limit_seconds)
         self.data_manager = get_data_manager()  # Added: DataManager for caching
+        # Request timeout configurable via env or override
+        if timeout_seconds is not None:
+            self.request_timeout = float(timeout_seconds)
+        else:
+            try:
+                self.request_timeout = float(os.getenv("FBREF_TIMEOUT_SECONDS", "30"))
+            except Exception:
+                self.request_timeout = 30.0
         
-        # Set up session with retry strategy
+        # Set up session with retry strategy (configurable)
         self.session = requests.Session()
+        if retry_total is None:
+            try:
+                retry_total = int(os.getenv("FBREF_RETRY_TOTAL", "5"))
+            except Exception:
+                retry_total = 5
+        if retry_backoff is None:
+            try:
+                retry_backoff = float(os.getenv("FBREF_RETRY_BACKOFF", "1.5"))
+            except Exception:
+                retry_backoff = 1.5
         retry_strategy = Retry(
-            total=3,
-            backoff_factor=1,
-            status_forcelist=[429, 500, 502, 503, 504]
+            total=retry_total,
+            backoff_factor=retry_backoff,
+            status_forcelist=[429, 500, 502, 503, 504],
         )
         adapter = HTTPAdapter(max_retries=retry_strategy)
         self.session.mount("http://", adapter)
@@ -60,12 +96,47 @@ class FBRefClient:
         
         # Set headers
         self.session.headers.update({
-            'User-Agent': 'StatTwin/1.0 (https://github.com/yourusername/stattwin)',
+            'User-Agent': 'StatTwin/1.0 (https://github.com/VaishakhVipin/stattwin)',
             'Accept': 'application/json'
         })
         
+        logger.info(
+            f"FBRef client configured: timeout={self.request_timeout:.0f}s, rate_limit={self.rate_limiter.min_interval:.1f}s, "
+            f"retries={retry_total} backoff={retry_backoff}, enum_order={self.enumeration_order or 'ENV/DEFAULT'}, "
+            f"enum_fb_season={self.enumeration_fallback_season_id or 'ENV/None'}"
+        )
+
         # Generate a new API key for this session
         self._generate_api_key()
+
+    # --------------------- Helpers ---------------------
+    def _normalize_season_id(self, season_id: Optional[str]) -> Optional[str]:
+        """Normalize season formats like '2015-16'/'2015/16'/'2015–16' -> '2015-2016'."""
+        if not season_id:
+            return season_id
+        s = str(season_id).strip()
+        if not s:
+            return s
+        # Unify separators
+        s2 = s.replace("/", "-").replace("–", "-").replace("—", "-")
+        # If already YYYY-YYYY, keep
+        if len(s2) == 9 and s2[:4].isdigit() and s2[4] == '-' and s2[5:].isdigit():
+            return s2
+        # If YYYY-YY, expand to YYYY-YYYY
+        if len(s2) == 7 and s2[:4].isdigit() and s2[4] == '-' and s2[5:7].isdigit():
+            start = int(s2[:4])
+            end2 = int(s2[5:7])
+            century = (start // 100) * 100
+            end_full = century + end2
+            if end_full < start:
+                end_full += 100
+            norm = f"{start}-{end_full}"
+            logger.info(f"Normalizing season_id '{s}' -> '{norm}'")
+            return norm
+        # Otherwise, return cleaned value
+        if s2 != s:
+            logger.info(f"Normalizing season_id '{s}' -> '{s2}'")
+        return s2
     
     def _generate_api_key(self):
         """Generate a new API key for this session."""
@@ -102,7 +173,7 @@ class FBRefClient:
             # Only rate-limit when we actually hit the network
             self.rate_limiter.wait_if_needed()
             logger.info(f"Making request to: {url}")
-            response = self.session.get(url, params=params, timeout=30)
+            response = self.session.get(url, params=params, timeout=self.request_timeout)
             response.raise_for_status()
             return response.json()
         
@@ -360,7 +431,7 @@ class FBRefClient:
         endpoint = "/teams"
         params = {'team_id': team_id}
         if season_id:
-            params['season_id'] = season_id
+            params['season_id'] = self._normalize_season_id(season_id)
         
         try:
             response = self._make_request(endpoint, params)
@@ -407,7 +478,7 @@ class FBRefClient:
             'league_id': league_id
         }
         if season_id:
-            params['season_id'] = season_id
+            params['season_id'] = self._normalize_season_id(season_id)
         
         try:
             response = self._make_request(endpoint, params)
@@ -434,7 +505,7 @@ class FBRefClient:
             'league_id': league_id
         }
         if season_id:
-            params['season_id'] = season_id
+            params['season_id'] = self._normalize_season_id(season_id)
         
         try:
             response = self._make_request(endpoint, params)
@@ -442,6 +513,224 @@ class FBRefClient:
         except Exception as e:
             logger.error(f"Failed to get player match stats: {e}")
             return []
+    
+    def get_league_standings(self, league_id: int, season_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Deprecated in our flow: we avoid relying on standings for team enumeration."""
+        endpoint = "/league-standings"
+        params: Dict[str, Any] = {"league_id": league_id}
+        if season_id:
+            params["season_id"] = self._normalize_season_id(season_id)
+        try:
+            response = self._make_request(endpoint, params)
+            return response.get("data", [])
+        except Exception as e:
+            logger.error(f"Failed to get league standings for league {league_id} season {season_id}: {e}")
+            return []
+
+    def get_team_season_stats(self, league_id: int, season_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Retrieve season-level team stats; useful for enumerating team ids when matches/season-details fail."""
+        endpoint = "/team-season-stats"
+        params: Dict[str, Any] = {"league_id": league_id}
+        if season_id:
+            params["season_id"] = self._normalize_season_id(season_id)
+        try:
+            response = self._make_request(endpoint, params)
+            # Some implementations return under 'data'
+            data = response.get("data")
+            if isinstance(data, list):
+                return data
+            # Otherwise return raw list if response itself is a list
+            if isinstance(response, list):
+                return response
+            return []
+        except Exception as e:
+            logger.error(f"Failed to get team season stats for league {league_id} season {season_id}: {e}")
+            return []
+
+    def get_matches(self, league_id: Optional[int] = None, season_id: Optional[str] = None, team_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Retrieve match meta-data. If team_id is provided, returns team matches; otherwise league matches (per fbref.md)."""
+        endpoint = "/matches"
+        params: Dict[str, Any] = {}
+        if team_id:
+            params["team_id"] = team_id
+        elif league_id is not None:
+            params["league_id"] = league_id
+        if season_id:
+            params["season_id"] = self._normalize_season_id(season_id)
+        try:
+            response = self._make_request(endpoint, params)
+            return response.get("data", [])
+        except Exception as e:
+            logger.error(f"Failed to get matches (league_id={league_id}, team_id={team_id}, season_id={season_id}): {e}")
+            return []
+
+    def list_teams_in_league(self, league_id: int, season_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Enumerate teams via league-level matches (home/away team ids) as per fbref.md.
+        Avoids standings to stay within documented flow.
+        """
+        teams: Dict[str, Dict[str, Any]] = {}
+
+        def add(team_id: Optional[str], team_name: Optional[str]):
+            if not team_id and not team_name:
+                return
+            key = (team_id or team_name or "").strip()
+            if key and key not in teams:
+                teams[key] = {"team_id": team_id, "team_name": team_name}
+
+        # Enumeration order can be controlled by programmatic override or env var
+        order_env = (self.enumeration_order or os.getenv("FBREF_ENUMERATION_ORDER", "matches,season-details,team-season-stats,standings,manual"))
+        steps = [s.strip().lower() for s in order_env.split(",") if s.strip()]
+
+        def do_matches():
+            matches = self.get_matches(league_id=league_id, season_id=season_id)
+            for m in matches:
+                home_id = m.get("home_team_id") or m.get("home_id") or (m.get("home") if isinstance(m.get("home"), str) else None)
+                away_id = m.get("away_team_id") or m.get("away_id") or (m.get("away") if isinstance(m.get("away"), str) else None)
+                home_name = m.get("home") or m.get("home_team") or m.get("home_name")
+                away_name = m.get("away") or m.get("away_team") or m.get("away_name")
+                if home_id or home_name:
+                    add(str(home_id) if home_id is not None else None, str(home_name) if home_name is not None else None)
+                if away_id or away_name:
+                    add(str(away_id) if away_id is not None else None, str(away_name) if away_name is not None else None)
+            return "matches"
+
+        def do_season_details():
+            for t in self.list_teams_from_season(league_id, season_id):
+                add(t.get("team_id"), t.get("team_name"))
+            return "season-details"
+
+        def do_standings():
+            standings = self.get_league_standings(league_id, season_id)
+            for row in standings:
+                tid = row.get("team_id") or row.get("id")
+                tname = row.get("team_name") or row.get("team") or row.get("name")
+                add(str(tid) if tid is not None else None, str(tname) if tname is not None else None)
+            return "standings"
+
+        def do_team_stats():
+            rows = self.get_team_season_stats(league_id, season_id)
+            # Try a generic deep extraction similar to list_teams_from_season
+            def try_extract(obj: Any):
+                if isinstance(obj, dict):
+                    tid = obj.get("team_id") or obj.get("id")
+                    tname = obj.get("team_name") or obj.get("team") or obj.get("name")
+                    team_obj = obj.get("team")
+                    if isinstance(team_obj, dict):
+                        tid = tid or team_obj.get("team_id") or team_obj.get("id")
+                        tname = tname or team_obj.get("team_name") or team_obj.get("name")
+                    if tid or tname:
+                        add(str(tid) if tid is not None else None, str(tname) if tname is not None else None)
+                    for v in obj.values():
+                        try_extract(v)
+                elif isinstance(obj, list):
+                    for it in obj:
+                        try_extract(it)
+            try_extract(rows)
+            return "team-season-stats"
+
+        def do_manual():
+            manual = os.getenv("FBREF_TEAM_IDS")
+            if manual:
+                for tid in [x.strip() for x in manual.split(",") if x.strip()]:
+                    add(tid, None)
+            return "manual"
+
+        action_map = {
+            "matches": do_matches,
+            "season-details": do_season_details,
+            "standings": do_standings,
+            "team-season-stats": do_team_stats,
+            "manual": do_manual,
+        }
+
+        def run_steps(for_season: Optional[str]) -> List[str]:
+            local_tried: List[str] = []
+            for step in steps:
+                fn = action_map.get(step)
+                if not fn:
+                    continue
+                before = len(teams)
+                # Temporarily swap season_id for this attempt
+                nonlocal season_id
+                orig_season = season_id
+                season_id = for_season
+                tag = fn()
+                season_id = orig_season
+                after = len(teams)
+                local_tried.append(f"{tag}:{after-before}")
+                if teams:
+                    logger.info(
+                        f"Team enumeration succeeded via {tag} (found={len(teams)}; increments={after-before})"
+                    )
+                    break
+            return local_tried
+
+        tried: List[str] = run_steps(season_id)
+        if teams:
+            return list(teams.values())
+
+        # Optional: try an alternate season for team enumeration only
+        fallback_season = self.enumeration_fallback_season_id or os.getenv("FBREF_ENUMERATION_FALLBACK_SEASON_ID")
+        if fallback_season:
+            logger.info(
+                f"Primary enumeration failed; trying fallback season for team listing: {fallback_season}"
+            )
+            tried_fb = run_steps(fallback_season)
+            tried.extend([f"fb:{x}" for x in tried_fb])
+            if teams:
+                logger.info(
+                    f"Team enumeration succeeded via fallback season {fallback_season} (found={len(teams)})"
+                )
+                return list(teams.values())
+
+        logger.warning(f"No teams could be enumerated (order={order_env}; tried={';'.join(tried)})")
+        return []
+
+    def get_league_season_details(self, league_id: int, season_id: Optional[str] = None) -> Dict[str, Any]:
+        """Retrieve meta-data for a specific league and season, typically includes teams and other info."""
+        endpoint = "/league-season-details"
+        params: Dict[str, Any] = {"league_id": league_id}
+        if season_id:
+            params["season_id"] = self._normalize_season_id(season_id)
+        try:
+            response = self._make_request(endpoint, params)
+            return response
+        except Exception as e:
+            logger.error(f"Failed to get league season details for league {league_id} season {season_id}: {e}")
+            return {}
+
+    def list_teams_from_season(self, league_id: int, season_id: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Return teams (team_id, team_name) from league-season-details endpoint."""
+        payload = self.get_league_season_details(league_id, season_id)
+        teams: Dict[str, Dict[str, Any]] = {}
+
+        def add_team(team_id: Optional[str], team_name: Optional[str]):
+            if not team_id and not team_name:
+                return
+            key = (team_id or team_name or "").strip()
+            if key and key not in teams:
+                teams[key] = {"team_id": team_id, "team_name": team_name}
+
+        def try_extract(obj: Any):
+            if isinstance(obj, dict):
+                # Direct keys
+                tid = obj.get("team_id") or obj.get("id")
+                tname = obj.get("team_name") or obj.get("team") or obj.get("name")
+                # Nested
+                team_obj = obj.get("team")
+                if isinstance(team_obj, dict):
+                    tid = tid or team_obj.get("team_id") or team_obj.get("id")
+                    tname = tname or team_obj.get("team_name") or team_obj.get("name")
+                if tid or tname:
+                    add_team(str(tid) if tid is not None else None, str(tname) if tname is not None else None)
+                for v in obj.values():
+                    try_extract(v)
+            elif isinstance(obj, list):
+                for it in obj:
+                    try_extract(it)
+
+        try_extract(payload)
+        return list(teams.values())
     
     def test_connection(self) -> bool:
         """Test if the API connection is working."""
@@ -460,6 +749,6 @@ class FBRefAPIError(Exception):
 
 
 # Convenience function to create client
-def create_fbref_client(api_key: Optional[str] = None) -> FBRefClient:
-    """Create and return a configured FBRef client."""
-    return FBRefClient(api_key=api_key)
+def create_fbref_client(api_key: Optional[str] = None, **kwargs: Any) -> FBRefClient:
+    """Create and return a configured FBRef client. Additional keyword args configure behavior."""
+    return FBRefClient(api_key=api_key, **kwargs)
